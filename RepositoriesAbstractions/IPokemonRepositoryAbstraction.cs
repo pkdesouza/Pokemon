@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace PokemonAPI.ServicesAbstractions
+namespace PokemonAPI.RepositoriesAbstractions
 {
-    public interface IPokemonService
+    public interface IPokemonRepositoryAbstraction
     {
         Task<IEnumerable<Pokemon>> GetAllPokemons();
     }
-
 }
-

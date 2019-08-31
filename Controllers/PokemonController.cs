@@ -1,10 +1,12 @@
-using CommandAPI.Models;
-using CommandAPI.ServicesAbstractions;
+using PokemonAPI.Models;
+using PokemonAPI.ServicesAbstractions;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
-namespace CommandAPI.Controllers
+namespace PokemonAPI.Controllers
 {
     [Route("api/[controller]")]
+    [Produces("application/json")]
     [ApiController]
     public class PokemonController : ControllerBase
     {
@@ -19,41 +21,35 @@ namespace CommandAPI.Controllers
 
         //GET:      api/commands
         [HttpGet]
-        public IActionResult GetCommandItems() => Ok();
+        public async Task<IActionResult> GetAll() => Ok(await PokemonService.GetAllPokemons());
 
         //GET:      api/commands/n
         [HttpGet("{id}")]
 
-        public IActionResult GetCommandItem(int id)
+        public async Task<IActionResult> GetCommandItem(int id)
         {
-            var result = PokemonService.AlterarTodoCodigoDiego();
-            return Ok(result);
+            return Ok(await PokemonService.GetAllPokemons());
         }
 
         //POST:     api/commands
         [HttpPost]
         public IActionResult PostCommandItem(Pokemon command)
         {
-            return CreatedAtAction("GetCommandItem", new Pokemon { Id = command.Id }, command);
+            return CreatedAtAction("GetCommandItem", command);
         }
 
         //PUT:      api/commands/n
         [HttpPut("{id}")]
         public IActionResult PutCommandItem(int id, Pokemon command)
         {
-            if (id != command.Id)
-            {
-                return BadRequest();
-            }
-
-            return NoContent();
+            return BadRequest();
         }
 
         //DELETE:   api/commands/n
         [HttpDelete("{id}")]
         public IActionResult DeleteCommandItem(int id)
         {
-           return NotFound(id); 
+            return NotFound(id);
         }
     }
 }

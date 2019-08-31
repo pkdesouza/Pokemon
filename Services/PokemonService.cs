@@ -1,19 +1,24 @@
-﻿using CommandAPI.Models;
-using CommandAPI.ServicesAbstractions;
+﻿using PokemonAPI.Models;
+using PokemonAPI.RepositoriesAbstractions;
+using PokemonAPI.ServicesAbstractions;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace CommandAPI.Services
+namespace PokemonAPI.Services
 {
     public class PokemonService : IPokemonService
     {
-        public Pokemon AlterarTodoCodigoDiego()
+
+        private readonly IPokemonRepositoryAbstraction PokemonRepository = null;
+
+        public PokemonService(IPokemonRepositoryAbstraction pokemonRepositoryAbstraction)
         {
-            return new Pokemon
-            {
-                Commandline = "sei lá",
-                Howto = "Vc me deve 50 conto",
-                Platform = "vou cobrar",
-                Id = 1
-            };
+            PokemonRepository = pokemonRepositoryAbstraction;
+        }
+
+        public async Task<IEnumerable<Pokemon>> GetAllPokemons()
+        {
+            return await PokemonRepository.GetAllPokemons();
         }
     }
 }

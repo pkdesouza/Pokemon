@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PokemonAPI.Utilities;
 using Swashbuckle.AspNetCore.Swagger;
-using WebLayer.Utilities;
 
-namespace CommandAPI
+namespace PokemonAPI
 {
     public class Startup
     {
@@ -17,7 +17,17 @@ namespace CommandAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.RegisterDependencyServices();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
+
+            services.RegisterDependency();
+            services.ConfigureMongo(Configuration);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
@@ -34,12 +44,13 @@ namespace CommandAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("CorsPolicy");
             app.UseMvc();
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "CommandAPI");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "PokemonAPI");
             });
         }
     }
