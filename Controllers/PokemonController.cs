@@ -21,14 +21,14 @@ namespace PokemonAPI.Controllers
 
         //GET:      api/commands
         [HttpGet]
-        public async Task<IActionResult> GetAll() => Ok(await PokemonService.GetAllPokemons());
+        public async Task<IActionResult> GetAll() => Ok();
 
         //GET:      api/commands/n
         [HttpGet("{id}")]
 
         public async Task<IActionResult> GetCommandItem(int id)
         {
-            return Ok(await PokemonService.GetAllPokemons());
+            return Ok();
         }
 
         //POST:     api/commands

@@ -9,16 +9,11 @@ namespace PokemonAPI.Services
     public class PokemonService : IPokemonService
     {
 
-        private readonly IPokemonRepositoryAbstraction PokemonRepository = null;
+        private readonly IPokemonRepositoryAbstraction _pokemonRepository;
 
-        public PokemonService(IPokemonRepositoryAbstraction pokemonRepositoryAbstraction)
+        public PokemonService(IPokemonRepositoryAbstraction productRepository)
         {
-            PokemonRepository = pokemonRepositoryAbstraction;
-        }
-
-        public async Task<IEnumerable<Pokemon>> GetAllPokemons()
-        {
-            return await PokemonRepository.GetAllPokemons();
+            _pokemonRepository = productRepository;
         }
     }
 }
