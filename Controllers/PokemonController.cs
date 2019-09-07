@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Mvc;
 using PokemonAPI.Models;
 using PokemonAPI.ServicesAbstractions;
-using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace PokemonAPI.Controllers
@@ -18,38 +20,117 @@ namespace PokemonAPI.Controllers
             PokemonService = pokemonService;
         }
 
-
-        //GET:      api/commands
         [HttpGet]
-        public async Task<IActionResult> GetAll() => Ok();
+        public async Task<IActionResult> GetAll()
+        {
+            try
+            {
+                var result = await PokemonService.GetAllAsync();
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return NotFound(e.Message);
+            }
+        }
 
-        //GET:      api/commands/n
         [HttpGet("{id}")]
 
-        public async Task<IActionResult> GetCommandItem(int id)
+        public async Task<IActionResult> GetById(string id)
         {
-            return Ok();
+            try
+            {
+                var result = await PokemonService.GetByIdAsync(id);
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return NotFound();
+            }
         }
 
-        //POST:     api/commands
         [HttpPost]
-        public IActionResult PostCommandItem(Pokemon command)
+        public async Task<IActionResult> Create(Pokemon pokemon)
         {
-            return CreatedAtAction("GetCommandItem", command);
+            try
+            {
+                await PokemonService.SaveAsync(pokemon);
+                return CreatedAtAction("Create", pokemon);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
 
-        //PUT:      api/commands/n
+        [HttpPost("CreateMany")]
+        public async Task<IActionResult> CreateMany(IList<Pokemon> pokemons)
+        {
+            try
+            {
+                await PokemonService.SaveAsync(pokemons);
+                return CreatedAtAction("Create", pokemons);
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+        }
+
         [HttpPut("{id}")]
-        public IActionResult PutCommandItem(int id, Pokemon command)
+        public async Task<IActionResult> Update(string id, Pokemon pokemon)
         {
-            return BadRequest();
+            try
+            {
+                await PokemonService.UpdateAsync(pokemon);
+                return Ok();
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
         }
 
-        //DELETE:   api/commands/n
-        [HttpDelete("{id}")]
-        public IActionResult DeleteCommandItem(int id)
+        [HttpPut("UpdateMany/{ids}")]
+        public async Task<IActionResult> UpdateMany(string ids, IList<Pokemon> pokemon)
         {
-            return NotFound(id);
+            try
+            {
+                await PokemonService.UpdateAsync(pokemon);
+                return Ok();
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(string id)
+        {
+            try
+            {
+                await PokemonService.DeleteAsync(id);
+                return Ok();
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpDelete("DeleteMany/{ids}")]
+        public async Task<IActionResult> DeleteMany(IList<string> ids)
+        {
+            try
+            {
+                await PokemonService.DeleteAsync(ids);
+                return Ok();
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
         }
     }
 }

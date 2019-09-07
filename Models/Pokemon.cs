@@ -7,15 +7,15 @@ namespace PokemonAPI.Models
     public class Pokemon
     {
         [BsonId]
-        public string _id { get; set; }
-        public int attack { get; set; }
-        public DateTime created { get; set; }
-        public int defense { get; set; }
-        public string height { get; set; }
-        public int hp { get; set; }
-        public string name { get; set; }
-        public int speed { get; set; }
-        public List<string> types { get; set; }
+        public string Id { get; set; }
+        public int Attack { get; set; }
+        public DateTime Created { get; set; }
+        public int Defense { get; set; }
+        public string Height { get; set; }
+        public int Hp { get; set; }
+        public string Name { get; set; }
+        public int Speed { get; set; }
+        public List<string> Types { get; set; }
     }
 }
 

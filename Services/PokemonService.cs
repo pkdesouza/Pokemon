@@ -1,19 +1,14 @@
-﻿using PokemonAPI.Models;
-using PokemonAPI.RepositoriesAbstractions;
+﻿using PokemonAPI.Context.Abstraction;
+using PokemonAPI.Models;
 using PokemonAPI.ServicesAbstractions;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace PokemonAPI.Services
 {
-    public class PokemonService : IPokemonService
+    public class PokemonService : BaseService<Pokemon>, IPokemonService
     {
-
-        private readonly IPokemonRepositoryAbstraction _pokemonRepository;
-
-        public PokemonService(IPokemonRepositoryAbstraction productRepository)
+        public PokemonService(IMongoContext context) : base(context)
         {
-            _pokemonRepository = productRepository;
+
         }
     }
 }

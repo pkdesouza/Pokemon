@@ -1,14 +1,11 @@
 ﻿using PokemonAPI.Models;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using PokemonAPI.RepositoriesAbstractions;
 
 namespace PokemonAPI.ServicesAbstractions
 {
-    public interface IPokemonService
+    public interface IPokemonService : IBaseRepository<Pokemon> 
     {
         
     }
-
 }
 

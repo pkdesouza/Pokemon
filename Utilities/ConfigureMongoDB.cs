@@ -14,6 +14,8 @@ namespace PokemonAPI.Utilities
                 options.Database = configuration.GetSection("MongoConnection:Database").Value;
             });
 
+            Map.Configure();
+
             return services;
         }
     }

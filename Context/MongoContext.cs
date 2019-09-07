@@ -2,6 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Conventions;
 using MongoDB.Driver;
+using PokemonAPI.Context.Abstraction;
 using PokemonAPI.Models.MongoDB;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace PokemonAPI.Context
 {
-    public class MongoContext
+    public class MongoContext : IMongoContext
     {
         private IMongoDatabase Database { get; set; }
         public MongoClient MongoClient { get; set; }
@@ -20,19 +21,13 @@ namespace PokemonAPI.Context
 
         public MongoContext(IOptions<Settings> settings)
         {
-            // Set Guid to CSharp style (with dash -)
-            BsonDefaults.GuidRepresentation = GuidRepresentation.CSharpLegacy;
-
-            // Every command will be stored and it'll be processed at SaveChanges
+            BsonDefaults.GuidRepresentation = GuidRepresentation.CSharpLegacy;            
             _commands = new List<Func<Task>>();
 
             RegisterConventions();
 
-            // Configure mongo (You can inject the config, just to simplify)
             MongoClient = new MongoClient(settings.Value.ConnectionString);
-
             Database = MongoClient.GetDatabase(settings.Value.Database);
-
         }
 
         private void RegisterConventions()
@@ -68,9 +63,6 @@ namespace PokemonAPI.Context
 
         public void Dispose()
         {
-            while (Session != null && Session.IsInTransaction)
-                Thread.Sleep(TimeSpan.FromMilliseconds(100));
-
             GC.SuppressFinalize(this);
         }
 
@@ -78,6 +70,8 @@ namespace PokemonAPI.Context
         {
             _commands.Add(func);
         }
+
+        public async Task<bool> Commit() => await SaveChanges() > 0;
 
     }
 

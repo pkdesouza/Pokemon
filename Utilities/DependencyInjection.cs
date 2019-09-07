@@ -3,6 +3,8 @@ using PokemonAPI.ServicesAbstractions;
 using Microsoft.Extensions.DependencyInjection;
 using PokemonAPI.Repositories;
 using PokemonAPI.RepositoriesAbstractions;
+using PokemonAPI.Context;
+using PokemonAPI.Context.Abstraction;
 
 namespace PokemonAPI.Utilities
 {
@@ -10,12 +12,17 @@ namespace PokemonAPI.Utilities
     {
         public static IServiceCollection RegisterDependency(this IServiceCollection services)
         {
+
+            #region context
+            services.AddScoped<IMongoContext, MongoContext>();
+            #endregion
+
             #region Services
-            services.AddTransient<IPokemonService, PokemonService>();
+            services.AddScoped<IPokemonService, PokemonService>();
             #endregion
 
             #region Repositories
-            services.AddTransient<IPokemonRepositoryAbstraction, PokemonRepository>();
+            services.AddScoped<IPokemonRepositoryAbstraction, PokemonRepository>();
             #endregion
 
             return services;

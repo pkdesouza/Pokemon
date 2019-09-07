@@ -14,6 +14,7 @@ namespace PokemonAPI.Repositories
     {        
         public PokemonRepository(IMongoContext context) : base(context)
         {
+            
         }
     }
 }

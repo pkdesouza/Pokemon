@@ -1,9 +1,7 @@
-﻿using Microsoft.Extensions.Options;
-using MongoDB.Driver;
-using PokemonAPI.Context;
+﻿using MongoDB.Driver;
 using PokemonAPI.Context.Abstraction;
-using PokemonAPI.Models.MongoDB;
 using PokemonAPI.RepositoriesAbstractions;
+using ServiceStack;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,28 +18,25 @@ namespace PokemonAPI.Repositories
         protected BaseRepository(IMongoContext context)
         {
             _context = context;
-            DbSet = _context.GetCollection<T>(typeof(T).Name);
+            DbSet = _context.GetCollection<T>(typeof(T).Name.ToLower());
         }
 
-        public virtual void Add(T obj)
+        public async Task DeleteAsync(string id)
         {
-            _context.AddCommand(() => DbSet.InsertOneAsync(obj));
+            _context.AddCommand(async () => await DbSet.DeleteOneAsync(Builders<T>.Filter.Eq("_id", id)));
+            await _context.Commit();
         }
 
-        public Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(IList<string> ids)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task DeleteAsync(IList<Guid> ids)
-        {
-            throw new NotImplementedException();
+            _context.AddCommand(async () => await DbSet.DeleteManyAsync(Builders<T>.Filter.In("_id", ids)));
+            await _context.Commit();
         }
 
         public async Task<IList<T>> FindAsync(Expression<Func<T, bool>> predicate)
         {
-            var all = DbSet.AsQueryable().Where(predicate);
-            return all.ToList();
+            var all = await this.GetAllAsync();
+            return all.AsQueryable().Where(predicate).ToList();
         }
 
         public async Task<IList<T>> GetAllAsync()
@@ -50,67 +45,43 @@ namespace PokemonAPI.Repositories
             return all.ToList();
         }
 
-        public async Task<T> GetByIdAsync(Guid id)
+        public async Task<T> GetByIdAsync(string id)
         {
             var data = await DbSet.FindAsync(Builders<T>.Filter.Eq("_id", id));
             return data.SingleOrDefault();
         }
 
-        public Task SaveAsync(T entity)
+        public async Task SaveAsync(T entity)
         {
-            throw new NotImplementedException();
+            _context.AddCommand(async () => await DbSet.InsertOneAsync(entity));
+            await _context.Commit();
         }
 
-        public Task SaveAsync(IList<T> entities)
+        public async Task SaveAsync(IList<T> entities)
         {
-            throw new NotImplementedException();
+            _context.AddCommand(async () => await DbSet.InsertManyAsync(entities));
+            await _context.Commit();
         }
 
-        public Task UpdateAsync(T entity)
+        public async Task UpdateAsync(T entity)
         {
-            throw new NotImplementedException();
+            _context.AddCommand(async () => await DbSet.ReplaceOneAsync(Builders<T>.Filter.Eq("_id", entity.GetId()), entity));
+            await _context.Commit();
         }
 
-        public Task UpdateAsync(IList<T> entities)
+        public async Task UpdateAsync(IList<T> entities)
         {
-            throw new NotImplementedException();
-        }
-
-        #region IDisposable Support
-        private bool disposedValue = false; // To detect redundant calls
-
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!disposedValue)
+            foreach (var entity in entities)
             {
-                if (disposing)
-                {
-                    // TODO: dispose managed state (managed objects).
-                }
-
-                // TODO: free unmanaged resources (unmanaged objects) and override a finalizer below.
-                // TODO: set large fields to null.
-
-                disposedValue = true;
+                _context.AddCommand(async () => await DbSet.ReplaceOneAsync(Builders<T>.Filter.Eq("_id", entity.GetId()), entity));
             }
+            await _context.Commit();
         }
 
-        // TODO: override a finalizer only if Dispose(bool disposing) above has code to free unmanaged resources.
-        // ~BaseRepository()
-        // {
-        //   // Do not change this code. Put cleanup code in Dispose(bool disposing) above.
-        //   Dispose(false);
-        // }
-
-        // This code added to correctly implement the disposable pattern.
         public void Dispose()
         {
-            // Do not change this code. Put cleanup code in Dispose(bool disposing) above.
-            Dispose(true);
-            // TODO: uncomment the following line if the finalizer is overridden above.
-            // GC.SuppressFinalize(this);
+            _context?.Dispose();
         }
-        #endregion
 
     }
 
