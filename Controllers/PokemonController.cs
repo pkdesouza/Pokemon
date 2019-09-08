@@ -115,7 +115,7 @@ namespace PokemonAPI.Controllers
                 await PokemonService.UpdateAsync(pokemons);
                 return Ok();
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
@@ -129,7 +129,7 @@ namespace PokemonAPI.Controllers
                 await PokemonService.DeleteAsync(id);
                 return Ok();
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
