@@ -9,11 +9,11 @@ namespace PokemonAPI.RepositoriesAbstractions
     {
         Task SaveAsync(T entity);
         Task SaveAsync(IList<T> entities);
-        Task<T> GetByIdAsync(string id);
+        Task<T> GetByIdAsync(Guid id);
         Task UpdateAsync(T entity);
         Task UpdateAsync(IList<T> entities);
-        Task DeleteAsync(string id);
-        Task DeleteAsync(IList<string> ids);
+        Task DeleteAsync(Guid id);
+        Task DeleteAsync(IList<Guid> ids);
         Task<IList<T>> GetAllAsync();
         Task<IList<T>> FindAsync(Expression<Func<T, bool>> predicate);
     }

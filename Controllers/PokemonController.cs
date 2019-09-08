@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using PokemonAPI.Models;
 using PokemonAPI.ServicesAbstractions;
+using PokemonAPI.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace PokemonAPI.Controllers
@@ -26,34 +28,39 @@ namespace PokemonAPI.Controllers
             try
             {
                 var result = await PokemonService.GetAllAsync();
+                if (result == null || !result.Any())
+                    return NotFound();
                 return Ok(result);
             }
             catch (Exception e)
             {
-                return NotFound(e.Message);
+                return BadRequest(e.Message);
             }
         }
 
         [HttpGet("{id}")]
 
-        public async Task<IActionResult> GetById(string id)
+        public async Task<IActionResult> GetById(Guid id)
         {
             try
             {
                 var result = await PokemonService.GetByIdAsync(id);
+                if (result == null)
+                    return NotFound();
                 return Ok(result);
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                return NotFound();
+                return BadRequest(e.Message);
             }
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Pokemon pokemon)
+        public async Task<IActionResult> Create(PokemonViewModel pokemonViewModel)
         {
             try
             {
+                var pokemon = new Pokemon(pokemonViewModel);
                 await PokemonService.SaveAsync(pokemon);
                 return CreatedAtAction("Create", pokemon);
             }
@@ -64,49 +71,58 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpPost("CreateMany")]
-        public async Task<IActionResult> CreateMany(IList<Pokemon> pokemons)
+        public async Task<IActionResult> CreateMany(IList<PokemonViewModel> pokemonViewModels)
         {
             try
             {
+                IList<Pokemon> pokemons = new List<Pokemon>();
+                foreach (var pokemonViewModel in pokemonViewModels)
+                    pokemons.Add(new Pokemon(pokemonViewModel));
+               
                 await PokemonService.SaveAsync(pokemons);
                 return CreatedAtAction("Create", pokemons);
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                return BadRequest();
+                return BadRequest(e.Message);
             }
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(string id, Pokemon pokemon)
+        public async Task<IActionResult> Update(Guid id, PokemonViewModel pokemonViewModel)
         {
             try
             {
+                var pokemon = new Pokemon(pokemonViewModel, id);
                 await PokemonService.UpdateAsync(pokemon);
                 return Ok();
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                return BadRequest();
+                return BadRequest(e.Message);
             }
         }
 
-        [HttpPut("UpdateMany/{ids}")]
-        public async Task<IActionResult> UpdateMany(string ids, IList<Pokemon> pokemon)
+        [HttpPut("UpdateMany")]
+        public async Task<IActionResult> UpdateMany(IList<PokemonUpdateViewModel> pokemonViewModels)
         {
             try
             {
-                await PokemonService.UpdateAsync(pokemon);
+                IList<Pokemon> pokemons = new List<Pokemon>();
+                foreach (var pokemonViewModel in pokemonViewModels)
+                    pokemons.Add(new Pokemon(pokemonViewModel, pokemonViewModel.Id));
+
+                await PokemonService.UpdateAsync(pokemons);
                 return Ok();
             }
             catch (Exception)
             {
-                return BadRequest();
+                return BadRequest(e.Message);
             }
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             try
             {
@@ -115,21 +131,21 @@ namespace PokemonAPI.Controllers
             }
             catch (Exception)
             {
-                return BadRequest();
+                return BadRequest(e.Message);
             }
         }
 
-        [HttpDelete("DeleteMany/{ids}")]
-        public async Task<IActionResult> DeleteMany(IList<string> ids)
+        [HttpDelete("DeleteMany")]
+        public async Task<IActionResult> DeleteMany(IList<Guid> ids)
         {
             try
             {
                 await PokemonService.DeleteAsync(ids);
                 return Ok();
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                return BadRequest();
+                return BadRequest(e.Message);
             }
         }
     }

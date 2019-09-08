@@ -1,8 +1,6 @@
 ﻿using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.IdGenerators;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace PokemonAPI.Models.MongoDB
 {
@@ -15,6 +13,7 @@ namespace PokemonAPI.Models.MongoDB
                 map.AutoMap();
                 map.SetIgnoreExtraElements(true);
                 map.MapIdMember(x => x.Id);
+                map.SetIdMember(map.GetMemberMap(x => x.Id));
                 map.MapMember(x => x.Name).SetIsRequired(true);
                 map.MapMember(x => x.Speed);
                 map.MapMember(x => x.Height);

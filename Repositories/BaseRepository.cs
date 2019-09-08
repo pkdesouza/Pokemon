@@ -21,13 +21,13 @@ namespace PokemonAPI.Repositories
             DbSet = _context.GetCollection<T>(typeof(T).Name.ToLower());
         }
 
-        public async Task DeleteAsync(string id)
+        public async Task DeleteAsync(Guid id)
         {
             _context.AddCommand(async () => await DbSet.DeleteOneAsync(Builders<T>.Filter.Eq("_id", id)));
             await _context.Commit();
         }
 
-        public async Task DeleteAsync(IList<string> ids)
+        public async Task DeleteAsync(IList<Guid> ids)
         {
             _context.AddCommand(async () => await DbSet.DeleteManyAsync(Builders<T>.Filter.In("_id", ids)));
             await _context.Commit();
@@ -35,7 +35,7 @@ namespace PokemonAPI.Repositories
 
         public async Task<IList<T>> FindAsync(Expression<Func<T, bool>> predicate)
         {
-            var all = await this.GetAllAsync();
+            var all = await GetAllAsync();
             return all.AsQueryable().Where(predicate).ToList();
         }
 
@@ -45,7 +45,7 @@ namespace PokemonAPI.Repositories
             return all.ToList();
         }
 
-        public async Task<T> GetByIdAsync(string id)
+        public async Task<T> GetByIdAsync(Guid id)
         {
             var data = await DbSet.FindAsync(Builders<T>.Filter.Eq("_id", id));
             return data.SingleOrDefault();
