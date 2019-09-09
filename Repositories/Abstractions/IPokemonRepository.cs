@@ -2,7 +2,7 @@
 
 namespace PokemonAPI.RepositoriesAbstractions
 {
-    public interface IPokemonRepositoryAbstraction : IBaseRepository<Pokemon>
+    public interface IPokemonRepository : IBaseRepository<Pokemon>
     {
     }
 }

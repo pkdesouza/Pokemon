@@ -22,7 +22,7 @@ namespace PokemonAPI.Utilities
             #endregion
 
             #region Repositories
-            services.AddScoped<IPokemonRepositoryAbstraction, PokemonRepository>();
+            services.AddScoped<IPokemonRepository, PokemonRepository>();
             #endregion
 
             return services;

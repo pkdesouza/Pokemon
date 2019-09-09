@@ -5,6 +5,7 @@ using PokemonAPI.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace PokemonAPI.Controllers
@@ -60,9 +61,14 @@ namespace PokemonAPI.Controllers
         {
             try
             {
+                pokemonViewModel.Valid();
                 var pokemon = new Pokemon(pokemonViewModel);
                 await PokemonService.SaveAsync(pokemon);
                 return CreatedAtAction("Create", pokemon);
+            }
+            catch (PokemonViewModelException e)
+            {
+                return StatusCode((int)HttpStatusCode.Forbidden, e.Message);
             }
             catch (Exception e)
             {
@@ -77,10 +83,17 @@ namespace PokemonAPI.Controllers
             {
                 IList<Pokemon> pokemons = new List<Pokemon>();
                 foreach (var pokemonViewModel in pokemonViewModels)
+                {
+                    pokemonViewModel.Valid();
                     pokemons.Add(new Pokemon(pokemonViewModel));
+                }
                
                 await PokemonService.SaveAsync(pokemons);
                 return CreatedAtAction("Create", pokemons);
+            }
+            catch (PokemonViewModelException e)
+            {
+                return StatusCode((int)HttpStatusCode.Forbidden, e.Message);
             }
             catch (Exception e)
             {
@@ -93,9 +106,14 @@ namespace PokemonAPI.Controllers
         {
             try
             {
+                pokemonViewModel.Valid();
                 var pokemon = new Pokemon(pokemonViewModel, id);
                 await PokemonService.UpdateAsync(pokemon);
                 return Ok();
+            }
+            catch(PokemonViewModelException e)
+            {
+                return StatusCode((int)HttpStatusCode.Forbidden, e.Message);
             }
             catch (Exception e)
             {
@@ -110,10 +128,17 @@ namespace PokemonAPI.Controllers
             {
                 IList<Pokemon> pokemons = new List<Pokemon>();
                 foreach (var pokemonViewModel in pokemonViewModels)
+                {
+                    pokemonViewModel.Valid();
                     pokemons.Add(new Pokemon(pokemonViewModel, pokemonViewModel.Id));
+                }
 
                 await PokemonService.UpdateAsync(pokemons);
                 return Ok();
+            }
+            catch (PokemonViewModelException e)
+            {
+                return StatusCode((int)HttpStatusCode.Forbidden, e.Message);
             }
             catch (Exception e)
             {

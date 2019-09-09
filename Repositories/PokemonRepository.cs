@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PokemonAPI.Repositories
 {
-    public class PokemonRepository : BaseRepository<Pokemon>, IPokemonRepositoryAbstraction
+    public class PokemonRepository : BaseRepository<Pokemon>, IPokemonRepository
     {        
         public PokemonRepository(IMongoContext context) : base(context)
         {
