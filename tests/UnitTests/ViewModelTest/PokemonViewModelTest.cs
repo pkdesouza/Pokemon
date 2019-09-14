@@ -5,20 +5,18 @@ namespace NUnitTestPokemon.ViewModelTest
 {
     public class PokemonViewModelTest
     {
-        public GenerateModel GenerateModel { get => new GenerateModel(); }
+        public GeneratePokemonModel GenerateModel { get => new GeneratePokemonModel(); }
 
         [Fact]
         public void Valid() {
-            void valid() => GenerateModel.PokemonViewModelValid.Valid();
-            var ex = Record.Exception(valid);
+            var ex = Record.Exception(() => GenerateModel.PokemonViewModelValid.Valid());
             Assert.Null(ex);
         }
 
         [Fact]
         public void Invalid()
         {
-            void valid() => GenerateModel.PokemonViewModelInvalid.Valid();
-            var ex = Record.Exception(valid);
+            var ex = Record.Exception(() => GenerateModel.PokemonViewModelInvalid.Valid());
             Assert.NotNull(ex);
         }
     }
