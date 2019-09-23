@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonAPI", "src\PokemonAPI.csproj", "{D158D0E5-753D-4918-8CA7-20D5C2633606}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonAPI", "src\backend\PokemonAPI.csproj", "{D158D0E5-753D-4918-8CA7-20D5C2633606}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE555124-9694-44BB-96D8-B2002F6C6433}"
 EndProject
@@ -11,7 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1EB20144
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestPokemon", "tests\UnitTests\XUnitTestPokemon.csproj", "{25669749-E7A1-498E-B856-0D861422FB63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XIntegrationTestPokemon", "tests\XIntegrationTestPokemon\XIntegrationTestPokemon.csproj", "{6DA8B32D-9221-455F-8E79-CBE7A3C0EB70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XIntegrationTestPokemon", "tests\XIntegrationTestPokemon\XIntegrationTestPokemon.csproj", "{6DA8B32D-9221-455F-8E79-CBE7A3C0EB70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{25669749-E7A1-498E-B856-0D861422FB63} = {25669749-E7A1-498E-B856-0D861422FB63}
+		{D158D0E5-753D-4918-8CA7-20D5C2633606} = {D158D0E5-753D-4918-8CA7-20D5C2633606}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

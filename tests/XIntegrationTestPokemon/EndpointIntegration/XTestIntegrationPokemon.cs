@@ -39,18 +39,21 @@ namespace XIntegrationTestPokemon
         [Fact]
         public async Task TestIntegrationPokemon()
         {
+            // Create
             var pokemon = GenerateModel.PokemonViewModelValid;
             var pokemonCreate = await CreateAsync(pokemon);
             var pokemonGet = await GetByIdAsync(pokemonCreate.Id);
+            Assert.NotNull(pokemonGet);
 
+            // Update
             pokemon.Name = $"{pokemon.Name} teste Update";
             await UpdateAsync(pokemonGet.Id, pokemon);
-
             pokemonGet = await GetByIdAsync(pokemonCreate.Id);
             Assert.Equal(pokemonGet.Name, pokemon.Name);
-
+            
+            // Delete
             await DeleteAsync(pokemonGet.Id);
-            await Assert.ThrowsAsync<Exception>(async () => await GetByIdAsync(pokemonGet.Id));
+            await Assert.ThrowsAsync<InvalidCastException>(async () => await GetByIdAsync(pokemonGet.Id));
         }
    
         internal async Task<Pokemon> GetByIdAsync(Guid guid)
@@ -59,6 +62,7 @@ namespace XIntegrationTestPokemon
             var pokemonResult = ((OkObjectResult)result).Value;
             return (Pokemon)pokemonResult;
         }
+
         internal async Task<Pokemon> CreateAsync(PokemonViewModel pokemonViewModel)
         {
             var result = await PokemonController.CreateAsync(pokemonViewModel);
@@ -66,11 +70,13 @@ namespace XIntegrationTestPokemon
             var pokemonResult = ((OkObjectResult)result).Value;
             return (Pokemon)pokemonResult;
         }
+
         internal async Task UpdateAsync(Guid id, PokemonViewModel pokemonViewModel)
         {
             var result = await PokemonController.UpdateAsync(id, pokemonViewModel);
             Assert.True(((OkResult)result).StatusCode.Equals(StatusCodes.Status200OK));
         }
+
         internal async Task DeleteAsync(Guid id)
         {
             var result = await PokemonController.DeleteAsync(id);

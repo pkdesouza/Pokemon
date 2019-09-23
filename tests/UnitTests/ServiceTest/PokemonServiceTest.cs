@@ -24,10 +24,10 @@ namespace XUnitTestPokemon.ServiceTest
 
             pokemonRepositoryMock.Setup(pr => pr.GetAllAsync()).ReturnsAsync(expectedPokemon);
 
-            var productsController = new PokemonController(pokemonRepositoryMock.Object);
-            var productsRetrieved = await productsController.GetAllAsync();
+            var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
+            var pokemonRetrieved = await pokemonController.GetAllAsync();
 
-            Assert.True(((OkObjectResult)productsRetrieved).Value.Equals(expectedPokemon));
+            Assert.True(((OkObjectResult)pokemonRetrieved).Value.Equals(expectedPokemon));
         }
 
         [Fact]
@@ -38,10 +38,10 @@ namespace XUnitTestPokemon.ServiceTest
 
             pokemonRepositoryMock.Setup(pr => pr.GetByIdAsync(expectedPokemon.Id)).ReturnsAsync(expectedPokemon);
 
-            var productsController = new PokemonController(pokemonRepositoryMock.Object);
-            var productsRetrieved = await productsController.GetByIdAsync(expectedPokemon.Id);
+            var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
+            var pokemonRetrieved = await pokemonController.GetByIdAsync(expectedPokemon.Id);
 
-            Assert.True(((OkObjectResult)productsRetrieved).Value.Equals(expectedPokemon));
+            Assert.True(((OkObjectResult)pokemonRetrieved).Value.Equals(expectedPokemon));
         }
 
         [Fact]
@@ -53,10 +53,10 @@ namespace XUnitTestPokemon.ServiceTest
 
             pokemonRepositoryMock.Setup(pr => pr.SaveAsync(expectedPokemon));
 
-            var productsController = new PokemonController(pokemonRepositoryMock.Object);
-            var productsRetrieved = await productsController.CreateAsync(expectedPokemonParam);
+            var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
+            var pokemonRetrieved = await pokemonController.CreateAsync(expectedPokemonParam);
 
-            Assert.True(((CreatedAtActionResult)productsRetrieved).StatusCode.Equals(StatusCodes.Status201Created));
+            Assert.True(((CreatedAtActionResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status201Created));
         }
 
         [Fact]
@@ -71,10 +71,10 @@ namespace XUnitTestPokemon.ServiceTest
 
             pokemonRepositoryMock.Setup(pr => pr.SaveAsync(expectedPokemonList));
 
-            var productsController = new PokemonController(pokemonRepositoryMock.Object);
-            var productsRetrieved = await productsController.CreateManyAsync(expectedPokemonParamList);
+            var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
+            var pokemonRetrieved = await pokemonController.CreateManyAsync(expectedPokemonParamList);
 
-            Assert.True(((CreatedAtActionResult)productsRetrieved).StatusCode.Equals(StatusCodes.Status201Created));
+            Assert.True(((CreatedAtActionResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status201Created));
         }
 
         [Fact]
@@ -85,10 +85,10 @@ namespace XUnitTestPokemon.ServiceTest
 
             pokemonRepositoryMock.Setup(pr => pr.DeleteAsync(guid));
 
-            var productsController = new PokemonController(pokemonRepositoryMock.Object);
-            var productsRetrieved = await productsController.DeleteAsync(guid);
+            var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
+            var pokemonRetrieved = await pokemonController.DeleteAsync(guid);
 
-            Assert.True(((OkResult)productsRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
+            Assert.True(((OkResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
         }
         [Fact]
         public async Task DeleteManyAsync()
@@ -102,10 +102,10 @@ namespace XUnitTestPokemon.ServiceTest
 
             pokemonRepositoryMock.Setup(pr => pr.DeleteAsync(guids));
 
-            var productsController = new PokemonController(pokemonRepositoryMock.Object);
-            var productsRetrieved = await productsController.DeleteManyAsync(guids);
+            var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
+            var pokemonRetrieved = await pokemonController.DeleteManyAsync(guids);
 
-            Assert.True(((OkResult)productsRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
+            Assert.True(((OkResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
         }
         [Fact]
         public async Task UpdateAsync()
@@ -116,10 +116,10 @@ namespace XUnitTestPokemon.ServiceTest
 
             pokemonRepositoryMock.Setup(pr => pr.UpdateAsync(expectedPokemon));
 
-            var productsController = new PokemonController(pokemonRepositoryMock.Object);
-            var productsRetrieved = await productsController.UpdateAsync(expectedPokemon.Id, expectedPokemonParam);
+            var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
+            var pokemonRetrieved = await pokemonController.UpdateAsync(expectedPokemon.Id, expectedPokemonParam);
 
-            Assert.True(((OkResult)productsRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
+            Assert.True(((OkResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
         }
 
         [Fact]
@@ -134,10 +134,10 @@ namespace XUnitTestPokemon.ServiceTest
             
             pokemonRepositoryMock.Setup(pr => pr.UpdateAsync(pokemonList));
 
-            var productsController = new PokemonController(pokemonRepositoryMock.Object);
-            var productsRetrieved = await productsController.UpdateManyAsync(pokemonUpdateViewModelList);
+            var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
+            var pokemonRetrieved = await pokemonController.UpdateManyAsync(pokemonUpdateViewModelList);
 
-            Assert.True(((OkResult)productsRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
+            Assert.True(((OkResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
         }
     }
 }
