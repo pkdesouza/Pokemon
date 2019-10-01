@@ -3,10 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <StartupObject>PokemonAPI.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
     <PackageReference Include="MongoDB.Driver" Version="2.9.1" />
     <PackageReference Include="ServiceStack.Core" Version="5.6.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />

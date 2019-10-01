@@ -64,7 +64,7 @@ namespace PokemonAPI.Controllers
                 pokemonViewModel.Valid();
                 var pokemon = new Pokemon(pokemonViewModel);
                 await PokemonService.SaveAsync(pokemon);
-                return CreatedAtAction("Create", pokemon);
+                return Ok(pokemon);
             }
             catch (PokemonViewModelException e)
             {
@@ -89,7 +89,7 @@ namespace PokemonAPI.Controllers
                 }
                
                 await PokemonService.SaveAsync(pokemons);
-                return CreatedAtAction("Create", pokemons);
+                return Ok(pokemons);
             }
             catch (PokemonViewModelException e)
             {

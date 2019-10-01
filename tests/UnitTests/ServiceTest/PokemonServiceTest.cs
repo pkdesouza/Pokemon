@@ -1,14 +1,15 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Moq;
-using NUnitTestPokemon.Model;
-using PokemonAPI.Controllers;
-using PokemonAPI.Models;
-using PokemonAPI.ServicesAbstractions;
-using System;
-using System.Collections.Generic;
+﻿
+using XUnitTestPokemon.Model;
 using System.Threading.Tasks;
 using Xunit;
+using Moq;
+using PokemonAPI.ServicesAbstractions;
+using PokemonAPI.Controllers;
+using Microsoft.AspNetCore.Mvc;
+using PokemonAPI.Models;
+using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System;
 
 namespace XUnitTestPokemon.ServiceTest
 {
@@ -56,7 +57,7 @@ namespace XUnitTestPokemon.ServiceTest
             var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
             var pokemonRetrieved = await pokemonController.CreateAsync(expectedPokemonParam);
 
-            Assert.True(((CreatedAtActionResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status201Created));
+            Assert.True(((OkObjectResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
         }
 
         [Fact]
@@ -74,7 +75,7 @@ namespace XUnitTestPokemon.ServiceTest
             var pokemonController = new PokemonController(pokemonRepositoryMock.Object);
             var pokemonRetrieved = await pokemonController.CreateManyAsync(expectedPokemonParamList);
 
-            Assert.True(((CreatedAtActionResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status201Created));
+            Assert.True(((OkObjectResult)pokemonRetrieved).StatusCode.Equals(StatusCodes.Status200OK));
         }
 
         [Fact]

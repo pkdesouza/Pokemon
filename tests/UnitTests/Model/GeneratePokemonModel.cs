@@ -4,7 +4,7 @@ using PokemonAPI.ViewModels;
 using System;
 using System.Collections.Generic;
 
-namespace NUnitTestPokemon.Model
+namespace XUnitTestPokemon.Model
 {
     public class GeneratePokemonModel
     {

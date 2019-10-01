@@ -9,10 +9,10 @@ using PokemonAPI.Context;
 using PokemonAPI.Models.MongoDB;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Mvc;
-using NUnitTestPokemon.Model;
 using Microsoft.AspNetCore.Http;
 using PokemonAPI.Models;
 using PokemonAPI.ViewModels;
+using XUnitTestPokemon.Model;
 
 namespace XIntegrationTestPokemon
 {
@@ -66,7 +66,7 @@ namespace XIntegrationTestPokemon
         internal async Task<Pokemon> CreateAsync(PokemonViewModel pokemonViewModel)
         {
             var result = await PokemonController.CreateAsync(pokemonViewModel);
-            Assert.True(((CreatedAtActionResult)result).StatusCode.Equals(StatusCodes.Status201Created));
+            Assert.True(((OkObjectResult)result).StatusCode.Equals(StatusCodes.Status200OK));
             var pokemonResult = ((OkObjectResult)result).Value;
             return (Pokemon)pokemonResult;
         }

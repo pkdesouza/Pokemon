@@ -1,7 +1,7 @@
-﻿using NUnitTestPokemon.Model;
+﻿using XUnitTestPokemon.Model;
 using Xunit;
 
-namespace NUnitTestPokemon.ViewModelTest
+namespace XUnitTestPokemon.ViewModelTest
 {
     public class PokemonViewModelTest
     {
