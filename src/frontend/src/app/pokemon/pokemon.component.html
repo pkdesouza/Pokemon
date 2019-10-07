@@ -1,0 +1,18 @@
+<h2>pokemons:</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Hp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pokemon of pokemons">
+      <td>{{pokemon.id}}</td>
+      <td>{{pokemon.name}}</td>
+      <td>{{pokemon.hp}}</td>
+    </tr>
+  </tbody>
+</table>
+<a routerLink="/pokemon/create">New</a>
