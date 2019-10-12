@@ -1,0 +1,6202 @@
+[
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.297180",
+    "defense": 40,
+    "height": "10",
+    "hp": 65,
+    "name": "Beedrill",
+    "speed": 75,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.299457",
+    "defense": 40,
+    "height": "3",
+    "hp": 40,
+    "name": "Pidgey",
+    "speed": 56,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.301609",
+    "defense": 55,
+    "height": "11",
+    "hp": 63,
+    "name": "Pidgeotto",
+    "speed": 71,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.303569",
+    "defense": 75,
+    "height": "15",
+    "hp": 83,
+    "name": "Pidgeot",
+    "speed": 101,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 81,
+    "created": "2013-11-03T15:05:41.308092",
+    "defense": 60,
+    "height": "7",
+    "hp": 55,
+    "name": "Raticate",
+    "speed": 97,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.312310",
+    "defense": 65,
+    "height": "12",
+    "hp": 65,
+    "name": "Fearow",
+    "speed": 100,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.317235",
+    "defense": 40,
+    "height": "4",
+    "hp": 35,
+    "name": "Pikachu",
+    "speed": 90,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.313816",
+    "defense": 44,
+    "height": "20",
+    "hp": 35,
+    "name": "Ekans",
+    "speed": 55,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.318944",
+    "defense": 55,
+    "height": "8",
+    "hp": 60,
+    "name": "Raichu",
+    "speed": 110,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.315504",
+    "defense": 69,
+    "height": "35",
+    "hp": 60,
+    "name": "Arbok",
+    "speed": 80,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.388462",
+    "defense": 40,
+    "height": "6",
+    "hp": 40,
+    "name": "Poliwag",
+    "speed": 90,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.390744",
+    "defense": 65,
+    "height": "10",
+    "hp": 65,
+    "name": "Poliwhirl",
+    "speed": 90,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.393388",
+    "defense": 95,
+    "height": "13",
+    "hp": 90,
+    "name": "Poliwrath",
+    "speed": 70,
+    "types": [ "fighting", "water" ]
+  },
+  {
+    "attack": 20,
+    "created": "2013-11-03T15:05:41.396006",
+    "defense": 15,
+    "height": "9",
+    "hp": 25,
+    "name": "Abra",
+    "speed": 90,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.398045",
+    "defense": 30,
+    "height": "13",
+    "hp": 40,
+    "name": "Kadabra",
+    "speed": 105,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.402119",
+    "defense": 50,
+    "height": "8",
+    "hp": 70,
+    "name": "Machop",
+    "speed": 35,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.404294",
+    "defense": 70,
+    "height": "15",
+    "hp": 80,
+    "name": "Machoke",
+    "speed": 45,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.406521",
+    "defense": 80,
+    "height": "16",
+    "hp": 90,
+    "name": "Machamp",
+    "speed": 55,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.408658",
+    "defense": 35,
+    "height": "7",
+    "hp": 50,
+    "name": "Bellsprout",
+    "speed": 40,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 62,
+    "created": "2013-11-03T15:05:41.265680",
+    "defense": 63,
+    "height": "10",
+    "hp": 60,
+    "name": "Ivysaur",
+    "speed": 60,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.494714",
+    "defense": 80,
+    "height": "22",
+    "hp": 105,
+    "name": "Kangaskhan",
+    "speed": 90,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.496373",
+    "defense": 70,
+    "height": "4",
+    "hp": 30,
+    "name": "Horsea",
+    "speed": 60,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.492955",
+    "defense": 115,
+    "height": "10",
+    "hp": 65,
+    "name": "Tangela",
+    "speed": 60,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.498328",
+    "defense": 95,
+    "height": "12",
+    "hp": 55,
+    "name": "Seadra",
+    "speed": 85,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 67,
+    "created": "2013-11-03T15:05:41.500000",
+    "defense": 60,
+    "height": "6",
+    "hp": 45,
+    "name": "Goldeen",
+    "speed": 63,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.503513",
+    "defense": 55,
+    "height": "8",
+    "hp": 30,
+    "name": "Staryu",
+    "speed": 85,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.506627",
+    "defense": 65,
+    "height": "13",
+    "hp": 40,
+    "name": "Mr-mime",
+    "speed": 90,
+    "types": [ "fairy", "psychic" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.505082",
+    "defense": 85,
+    "height": "11",
+    "hp": 60,
+    "name": "Starmie",
+    "speed": 115,
+    "types": [ "water", "psychic" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:41.508145",
+    "defense": 80,
+    "height": "15",
+    "hp": 70,
+    "name": "Scyther",
+    "speed": 105,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 125,
+    "created": "2013-11-03T15:05:41.516264",
+    "defense": 100,
+    "height": "15",
+    "hp": 65,
+    "name": "Pinsir",
+    "speed": 85,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.530952",
+    "defense": 60,
+    "height": "9",
+    "hp": 65,
+    "name": "Flareon",
+    "speed": 65,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.532931",
+    "defense": 70,
+    "height": "8",
+    "hp": 65,
+    "name": "Porygon",
+    "speed": 40,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.534717",
+    "defense": 100,
+    "height": "4",
+    "hp": 35,
+    "name": "Omanyte",
+    "speed": 35,
+    "types": [ "rock", "water" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:41.413279",
+    "defense": 65,
+    "height": "17",
+    "hp": 80,
+    "name": "Victreebel",
+    "speed": 70,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.415512",
+    "defense": 35,
+    "height": "9",
+    "hp": 40,
+    "name": "Tentacool",
+    "speed": 70,
+    "types": [ "poison", "water" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.417798",
+    "defense": 65,
+    "height": "16",
+    "hp": 80,
+    "name": "Tentacruel",
+    "speed": 100,
+    "types": [ "poison", "water" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:41.542937",
+    "defense": 65,
+    "height": "21",
+    "hp": 160,
+    "name": "Snorlax",
+    "speed": 30,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.544653",
+    "defense": 100,
+    "height": "17",
+    "hp": 90,
+    "name": "Articuno",
+    "speed": 85,
+    "types": [ "flying", "ice" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:41.554242",
+    "defense": 90,
+    "height": "20",
+    "hp": 106,
+    "name": "Mewtwo",
+    "speed": 130,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.547829",
+    "defense": 90,
+    "height": "20",
+    "hp": 90,
+    "name": "Moltres",
+    "speed": 90,
+    "types": [ "flying", "fire" ]
+  },
+  {
+    "attack": 62,
+    "created": "2013-11-03T15:05:41.325375",
+    "defense": 67,
+    "height": "8",
+    "hp": 70,
+    "name": "Nidorina",
+    "speed": 56,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.320548",
+    "defense": 85,
+    "height": "6",
+    "hp": 50,
+    "name": "Sandshrew",
+    "speed": 40,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 57,
+    "created": "2013-11-03T15:05:41.328297",
+    "defense": 40,
+    "height": "5",
+    "hp": 46,
+    "name": "Nidoran-m",
+    "speed": 50,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 47,
+    "created": "2013-11-03T15:05:41.323823",
+    "defense": 52,
+    "height": "4",
+    "hp": 55,
+    "name": "Nidoran-f",
+    "speed": 41,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 92,
+    "created": "2013-11-03T15:05:41.326872",
+    "defense": 87,
+    "height": "13",
+    "hp": 90,
+    "name": "Nidoqueen",
+    "speed": 76,
+    "types": [ "poison", "ground" ]
+  },
+  {
+    "attack": 72,
+    "created": "2013-11-03T15:05:41.329809",
+    "defense": 57,
+    "height": "9",
+    "hp": 61,
+    "name": "Nidorino",
+    "speed": 65,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 102,
+    "created": "2013-11-03T15:05:41.331350",
+    "defense": 77,
+    "height": "14",
+    "hp": 81,
+    "name": "Nidoking",
+    "speed": 85,
+    "types": [ "poison", "ground" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.334585",
+    "defense": 73,
+    "height": "13",
+    "hp": 95,
+    "name": "Clefable",
+    "speed": 60,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.339667",
+    "defense": 20,
+    "height": "5",
+    "hp": 115,
+    "name": "Jigglypuff",
+    "speed": 20,
+    "types": [ "normal", "fairy" ]
+  },
+  {
+    "attack": 41,
+    "created": "2013-11-03T15:05:41.336401",
+    "defense": 40,
+    "height": "6",
+    "hp": 38,
+    "name": "Vulpix",
+    "speed": 65,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.509662",
+    "defense": 35,
+    "height": "14",
+    "hp": 65,
+    "name": "Jynx",
+    "speed": 95,
+    "types": [ "ice", "psychic" ]
+  },
+  {
+    "attack": 83,
+    "created": "2013-11-03T15:05:41.511238",
+    "defense": 57,
+    "height": "11",
+    "hp": 65,
+    "name": "Electabuzz",
+    "speed": 105,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.514606",
+    "defense": 57,
+    "height": "13",
+    "hp": 65,
+    "name": "Magmar",
+    "speed": 93,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.517780",
+    "defense": 95,
+    "height": "14",
+    "hp": 75,
+    "name": "Tauros",
+    "speed": 110,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 125,
+    "created": "2013-11-03T15:05:41.520876",
+    "defense": 79,
+    "height": "65",
+    "hp": 95,
+    "name": "Gyarados",
+    "speed": 81,
+    "types": [ "flying", "water" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.522528",
+    "defense": 80,
+    "height": "25",
+    "hp": 130,
+    "name": "Lapras",
+    "speed": 60,
+    "types": [ "water", "ice" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:41.524004",
+    "defense": 48,
+    "height": "3",
+    "hp": 48,
+    "name": "Ditto",
+    "speed": 48,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.525683",
+    "defense": 50,
+    "height": "3",
+    "hp": 55,
+    "name": "Eevee",
+    "speed": 55,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.528778",
+    "defense": 60,
+    "height": "8",
+    "hp": 65,
+    "name": "Jolteon",
+    "speed": 130,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.527299",
+    "defense": 60,
+    "height": "10",
+    "hp": 130,
+    "name": "Vaporeon",
+    "speed": 65,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.475736",
+    "defense": 85,
+    "height": "20",
+    "hp": 95,
+    "name": "Exeggutor",
+    "speed": 55,
+    "types": [ "grass", "psychic" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.480313",
+    "defense": 53,
+    "height": "15",
+    "hp": 50,
+    "name": "Hitmonlee",
+    "speed": 87,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.477240",
+    "defense": 95,
+    "height": "4",
+    "hp": 50,
+    "name": "Cubone",
+    "speed": 35,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.483467",
+    "defense": 75,
+    "height": "12",
+    "hp": 90,
+    "name": "Lickitung",
+    "speed": 30,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:41.481911",
+    "defense": 79,
+    "height": "14",
+    "hp": 50,
+    "name": "Hitmonchan",
+    "speed": 76,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.485101",
+    "defense": 95,
+    "height": "6",
+    "hp": 40,
+    "name": "Koffing",
+    "speed": 35,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.486732",
+    "defense": 120,
+    "height": "12",
+    "hp": 65,
+    "name": "Weezing",
+    "speed": 60,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.488292",
+    "defense": 95,
+    "height": "10",
+    "hp": 80,
+    "name": "Rhyhorn",
+    "speed": 25,
+    "types": [ "ground", "rock" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.489801",
+    "defense": 120,
+    "height": "19",
+    "hp": 105,
+    "name": "Rhydon",
+    "speed": 40,
+    "types": [ "ground", "rock" ]
+  },
+  {
+    "attack": 5,
+    "created": "2013-11-03T15:05:41.491487",
+    "defense": 5,
+    "height": "11",
+    "hp": 250,
+    "name": "Chansey",
+    "speed": 50,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 89,
+    "created": "2013-11-03T15:05:41.979556",
+    "defense": 85,
+    "height": "11",
+    "hp": 75,
+    "name": "Grotle",
+    "speed": 36,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 58,
+    "created": "2013-11-03T15:05:41.982702",
+    "defense": 44,
+    "height": "5",
+    "hp": 44,
+    "name": "Chimchar",
+    "speed": 61,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.995321",
+    "defense": 70,
+    "height": "12",
+    "hp": 85,
+    "name": "Staraptor",
+    "speed": 100,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.003721",
+    "defense": 34,
+    "height": "5",
+    "hp": 45,
+    "name": "Shinx",
+    "speed": 45,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 78,
+    "created": "2013-11-03T15:05:41.984279",
+    "defense": 52,
+    "height": "9",
+    "hp": 64,
+    "name": "Monferno",
+    "speed": 81,
+    "types": [ "fighting", "fire" ]
+  },
+  {
+    "attack": 104,
+    "created": "2013-11-03T15:05:41.985767",
+    "defense": 71,
+    "height": "12",
+    "hp": 76,
+    "name": "Infernape",
+    "speed": 108,
+    "types": [ "fighting", "fire" ]
+  },
+  {
+    "attack": 51,
+    "created": "2013-11-03T15:05:41.987291",
+    "defense": 53,
+    "height": "4",
+    "hp": 53,
+    "name": "Piplup",
+    "speed": 40,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 86,
+    "created": "2013-11-03T15:05:41.990475",
+    "defense": 88,
+    "height": "17",
+    "hp": 84,
+    "name": "Empoleon",
+    "speed": 60,
+    "types": [ "steel", "water" ]
+  },
+  {
+    "attack": 66,
+    "created": "2013-11-03T15:05:41.988887",
+    "defense": 68,
+    "height": "8",
+    "hp": 64,
+    "name": "Prinplup",
+    "speed": 50,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.991934",
+    "defense": 30,
+    "height": "3",
+    "hp": 40,
+    "name": "Starly",
+    "speed": 60,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.925429",
+    "defense": 130,
+    "height": "16",
+    "hp": 40,
+    "name": "Dusclops",
+    "speed": 25,
+    "types": [ "ghost" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.928314",
+    "defense": 70,
+    "height": "6",
+    "hp": 65,
+    "name": "Chimecho",
+    "speed": 65,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.929882",
+    "defense": 60,
+    "height": "12",
+    "hp": 65,
+    "name": "Absol",
+    "speed": 75,
+    "types": [ "dark" ]
+  },
+  {
+    "attack": 23,
+    "created": "2013-11-03T15:05:41.931449",
+    "defense": 48,
+    "height": "6",
+    "hp": 95,
+    "name": "Wynaut",
+    "speed": 23,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.933012",
+    "defense": 50,
+    "height": "7",
+    "hp": 50,
+    "name": "Snorunt",
+    "speed": 50,
+    "types": [ "ice" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.934638",
+    "defense": 80,
+    "height": "15",
+    "hp": 80,
+    "name": "Glalie",
+    "speed": 80,
+    "types": [ "ice" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.936228",
+    "defense": 50,
+    "height": "8",
+    "hp": 70,
+    "name": "Spheal",
+    "speed": 25,
+    "types": [ "water", "ice" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.937771",
+    "defense": 70,
+    "height": "11",
+    "hp": 90,
+    "name": "Sealeo",
+    "speed": 45,
+    "types": [ "water", "ice" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.946050",
+    "defense": 130,
+    "height": "10",
+    "hp": 100,
+    "name": "Relicanth",
+    "speed": 55,
+    "types": [ "rock", "water" ]
+  },
+  {
+    "attack": 84,
+    "created": "2013-11-03T15:05:41.944495",
+    "defense": 105,
+    "height": "18",
+    "hp": 55,
+    "name": "Gorebyss",
+    "speed": 52,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.864111",
+    "defense": 40,
+    "height": "7",
+    "hp": 60,
+    "name": "Numel",
+    "speed": 35,
+    "types": [ "ground", "fire" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.873102",
+    "defense": 65,
+    "height": "9",
+    "hp": 80,
+    "name": "Grumpig",
+    "speed": 80,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.868616",
+    "defense": 140,
+    "height": "5",
+    "hp": 70,
+    "name": "Torkoal",
+    "speed": 20,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 25,
+    "created": "2013-11-03T15:05:41.870901",
+    "defense": 35,
+    "height": "7",
+    "hp": 60,
+    "name": "Spoink",
+    "speed": 60,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.874845",
+    "defense": 60,
+    "height": "11",
+    "hp": 60,
+    "name": "Spinda",
+    "speed": 60,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.876501",
+    "defense": 45,
+    "height": "7",
+    "hp": 45,
+    "name": "Trapinch",
+    "speed": 10,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.878239",
+    "defense": 50,
+    "height": "11",
+    "hp": 50,
+    "name": "Vibrava",
+    "speed": 70,
+    "types": [ "ground", "dragon" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.879854",
+    "defense": 80,
+    "height": "20",
+    "hp": 80,
+    "name": "Flygon",
+    "speed": 100,
+    "types": [ "ground", "dragon" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.885655",
+    "defense": 60,
+    "height": "4",
+    "hp": 45,
+    "name": "Swablu",
+    "speed": 50,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.881948",
+    "defense": 40,
+    "height": "4",
+    "hp": 50,
+    "name": "Cacnea",
+    "speed": 35,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.813161",
+    "defense": 45,
+    "height": "6",
+    "hp": 50,
+    "name": "Skitty",
+    "speed": 50,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.817795",
+    "defense": 75,
+    "height": "5",
+    "hp": 50,
+    "name": "Sableye",
+    "speed": 50,
+    "types": [ "ghost", "dark" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.822393",
+    "defense": 100,
+    "height": "4",
+    "hp": 50,
+    "name": "Aron",
+    "speed": 30,
+    "types": [ "rock", "steel" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.820091",
+    "defense": 85,
+    "height": "6",
+    "hp": 50,
+    "name": "Mawile",
+    "speed": 50,
+    "types": [ "steel", "fairy" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.838814",
+    "defense": 40,
+    "height": "4",
+    "hp": 60,
+    "name": "Plusle",
+    "speed": 95,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:41.827214",
+    "defense": 180,
+    "height": "21",
+    "hp": 70,
+    "name": "Aggron",
+    "speed": 50,
+    "types": [ "rock", "steel" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.824736",
+    "defense": 140,
+    "height": "9",
+    "hp": 60,
+    "name": "Lairon",
+    "speed": 40,
+    "types": [ "rock", "steel" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.831794",
+    "defense": 75,
+    "height": "13",
+    "hp": 60,
+    "name": "Medicham",
+    "speed": 80,
+    "types": [ "fighting", "psychic" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.834077",
+    "defense": 40,
+    "height": "6",
+    "hp": 40,
+    "name": "Electrike",
+    "speed": 65,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.836323",
+    "defense": 60,
+    "height": "15",
+    "hp": 70,
+    "name": "Manectric",
+    "speed": 105,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.755829",
+    "defense": 55,
+    "height": "7",
+    "hp": 50,
+    "name": "Cascoon",
+    "speed": 15,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.757412",
+    "defense": 70,
+    "height": "12",
+    "hp": 60,
+    "name": "Dustox",
+    "speed": 65,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.759350",
+    "defense": 30,
+    "height": "5",
+    "hp": 40,
+    "name": "Lotad",
+    "speed": 30,
+    "types": [ "water", "grass" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.762620",
+    "defense": 70,
+    "height": "15",
+    "hp": 80,
+    "name": "Ludicolo",
+    "speed": 70,
+    "types": [ "water", "grass" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.761150",
+    "defense": 50,
+    "height": "12",
+    "hp": 60,
+    "name": "Lombre",
+    "speed": 50,
+    "types": [ "water", "grass" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.764091",
+    "defense": 50,
+    "height": "5",
+    "hp": 40,
+    "name": "Seedot",
+    "speed": 30,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.767249",
+    "defense": 60,
+    "height": "13",
+    "hp": 90,
+    "name": "Shiftry",
+    "speed": 80,
+    "types": [ "grass", "dark" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.765624",
+    "defense": 40,
+    "height": "10",
+    "hp": 70,
+    "name": "Nuzleaf",
+    "speed": 60,
+    "types": [ "grass", "dark" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.651576",
+    "defense": 75,
+    "height": "14",
+    "hp": 90,
+    "name": "Granbull",
+    "speed": 45,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.768842",
+    "defense": 30,
+    "height": "3",
+    "hp": 40,
+    "name": "Taillow",
+    "speed": 85,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.609564",
+    "defense": 95,
+    "height": "4",
+    "hp": 75,
+    "name": "Bellossom",
+    "speed": 50,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.608119",
+    "defense": 85,
+    "height": "14",
+    "hp": 90,
+    "name": "Ampharos",
+    "speed": 55,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 20,
+    "created": "2013-11-03T15:05:41.611027",
+    "defense": 50,
+    "height": "4",
+    "hp": 70,
+    "name": "Marill",
+    "speed": 40,
+    "types": [ "water", "fairy" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.617346",
+    "defense": 40,
+    "height": "4",
+    "hp": 35,
+    "name": "Hoppip",
+    "speed": 50,
+    "types": [ "flying", "grass" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.614170",
+    "defense": 115,
+    "height": "12",
+    "hp": 70,
+    "name": "Sudowoodo",
+    "speed": 30,
+    "types": [ "rock" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.612620",
+    "defense": 80,
+    "height": "8",
+    "hp": 100,
+    "name": "Azumarill",
+    "speed": 50,
+    "types": [ "water", "fairy" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.615847",
+    "defense": 75,
+    "height": "11",
+    "hp": 90,
+    "name": "Politoed",
+    "speed": 70,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.618853",
+    "defense": 50,
+    "height": "6",
+    "hp": 55,
+    "name": "Skiploom",
+    "speed": 80,
+    "types": [ "flying", "grass" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.620281",
+    "defense": 70,
+    "height": "8",
+    "hp": 75,
+    "name": "Jumpluff",
+    "speed": 110,
+    "types": [ "flying", "grass" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.624738",
+    "defense": 55,
+    "height": "8",
+    "hp": 75,
+    "name": "Sunflora",
+    "speed": 30,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 76,
+    "created": "2013-11-03T15:05:41.337941",
+    "defense": 75,
+    "height": "11",
+    "hp": 73,
+    "name": "Ninetales",
+    "speed": 100,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.341847",
+    "defense": 45,
+    "height": "10",
+    "hp": 140,
+    "name": "Wigglytuff",
+    "speed": 45,
+    "types": [ "normal", "fairy" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.344112",
+    "defense": 35,
+    "height": "8",
+    "hp": 40,
+    "name": "Zubat",
+    "speed": 55,
+    "types": [ "flying", "poison" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.360807",
+    "defense": 50,
+    "height": "10",
+    "hp": 60,
+    "name": "Venonat",
+    "speed": 45,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.369998",
+    "defense": 35,
+    "height": "4",
+    "hp": 40,
+    "name": "Meowth",
+    "speed": 90,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.346484",
+    "defense": 70,
+    "height": "16",
+    "hp": 75,
+    "name": "Golbat",
+    "speed": 90,
+    "types": [ "flying", "poison" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.348691",
+    "defense": 55,
+    "height": "5",
+    "hp": 45,
+    "name": "Oddish",
+    "speed": 30,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.351048",
+    "defense": 70,
+    "height": "8",
+    "hp": 60,
+    "name": "Gloom",
+    "speed": 40,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.353853",
+    "defense": 85,
+    "height": "12",
+    "hp": 75,
+    "name": "Vileplume",
+    "speed": 50,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.356361",
+    "defense": 55,
+    "height": "3",
+    "hp": 35,
+    "name": "Paras",
+    "speed": 25,
+    "types": [ "bug", "grass" ]
+  },
+  {
+    "attack": 56,
+    "created": "2013-11-03T15:05:41.305777",
+    "defense": 35,
+    "height": "3",
+    "hp": 30,
+    "name": "Rattata",
+    "speed": 72,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 52,
+    "created": "2013-11-03T15:05:41.271082",
+    "defense": 43,
+    "height": "6",
+    "hp": 39,
+    "name": "Charmander",
+    "speed": 65,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 64,
+    "created": "2013-11-03T15:05:41.273462",
+    "defense": 58,
+    "height": "11",
+    "hp": 58,
+    "name": "Charmeleon",
+    "speed": 80,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 63,
+    "created": "2013-11-03T15:05:41.280718",
+    "defense": 80,
+    "height": "10",
+    "hp": 59,
+    "name": "Wartortle",
+    "speed": 58,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 83,
+    "created": "2013-11-03T15:05:41.282985",
+    "defense": 100,
+    "height": "16",
+    "hp": 79,
+    "name": "Blastoise",
+    "speed": 78,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.285736",
+    "defense": 35,
+    "height": "3",
+    "hp": 45,
+    "name": "Caterpie",
+    "speed": 45,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 20,
+    "created": "2013-11-03T15:05:41.288107",
+    "defense": 55,
+    "height": "7",
+    "hp": 50,
+    "name": "Metapod",
+    "speed": 30,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.290411",
+    "defense": 50,
+    "height": "11",
+    "hp": 60,
+    "name": "Butterfree",
+    "speed": 70,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.310402",
+    "defense": 30,
+    "height": "3",
+    "hp": 40,
+    "name": "Spearow",
+    "speed": 70,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 25,
+    "created": "2013-11-03T15:05:41.294947",
+    "defense": 50,
+    "height": "6",
+    "hp": 45,
+    "name": "Kakuna",
+    "speed": 35,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.568198",
+    "defense": 64,
+    "height": "6",
+    "hp": 50,
+    "name": "Totodile",
+    "speed": 43,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 64,
+    "created": "2013-11-03T15:05:41.549461",
+    "defense": 45,
+    "height": "18",
+    "hp": 41,
+    "name": "Dratini",
+    "speed": 50,
+    "types": [ "dragon" ]
+  },
+  {
+    "attack": 84,
+    "created": "2013-11-03T15:05:41.551011",
+    "defense": 65,
+    "height": "40",
+    "hp": 61,
+    "name": "Dragonair",
+    "speed": 70,
+    "types": [ "dragon" ]
+  },
+  {
+    "attack": 62,
+    "created": "2013-11-03T15:05:41.559413",
+    "defense": 80,
+    "height": "12",
+    "hp": 60,
+    "name": "Bayleef",
+    "speed": 60,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.556127",
+    "defense": 100,
+    "height": "4",
+    "hp": 100,
+    "name": "Mew",
+    "speed": 100,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 49,
+    "created": "2013-11-03T15:05:41.557827",
+    "defense": 65,
+    "height": "9",
+    "hp": 45,
+    "name": "Chikorita",
+    "speed": 45,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 82,
+    "created": "2013-11-03T15:05:41.560930",
+    "defense": 100,
+    "height": "18",
+    "hp": 80,
+    "name": "Meganium",
+    "speed": 80,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.596217",
+    "defense": 15,
+    "height": "3",
+    "hp": 90,
+    "name": "Igglybuff",
+    "speed": 15,
+    "types": [ "normal", "fairy" ]
+  },
+  {
+    "attack": 52,
+    "created": "2013-11-03T15:05:41.562570",
+    "defense": 43,
+    "height": "5",
+    "hp": 39,
+    "name": "Cyndaquil",
+    "speed": 65,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 64,
+    "created": "2013-11-03T15:05:41.564322",
+    "defense": 58,
+    "height": "9",
+    "hp": 58,
+    "name": "Quilava",
+    "speed": 80,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.587508",
+    "defense": 80,
+    "height": "18",
+    "hp": 85,
+    "name": "Crobat",
+    "speed": 130,
+    "types": [ "flying", "poison" ]
+  },
+  {
+    "attack": 38,
+    "created": "2013-11-03T15:05:41.589626",
+    "defense": 38,
+    "height": "5",
+    "hp": 75,
+    "name": "Chinchou",
+    "speed": 67,
+    "types": [ "water", "electric" ]
+  },
+  {
+    "attack": 58,
+    "created": "2013-11-03T15:05:41.591538",
+    "defense": 58,
+    "height": "12",
+    "hp": 125,
+    "name": "Lanturn",
+    "speed": 67,
+    "types": [ "water", "electric" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.593051",
+    "defense": 15,
+    "height": "3",
+    "hp": 20,
+    "name": "Pichu",
+    "speed": 60,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 25,
+    "created": "2013-11-03T15:05:41.594632",
+    "defense": 28,
+    "height": "3",
+    "hp": 50,
+    "name": "Cleffa",
+    "speed": 15,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 20,
+    "created": "2013-11-03T15:05:41.597734",
+    "defense": 65,
+    "height": "3",
+    "hp": 35,
+    "name": "Togepi",
+    "speed": 20,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.599606",
+    "defense": 85,
+    "height": "6",
+    "hp": 55,
+    "name": "Togetic",
+    "speed": 40,
+    "types": [ "flying", "fairy" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.601471",
+    "defense": 45,
+    "height": "2",
+    "hp": 40,
+    "name": "Natu",
+    "speed": 70,
+    "types": [ "flying", "psychic" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.603386",
+    "defense": 70,
+    "height": "15",
+    "hp": 65,
+    "name": "Xatu",
+    "speed": 95,
+    "types": [ "flying", "psychic" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.605094",
+    "defense": 40,
+    "height": "6",
+    "hp": 55,
+    "name": "Mareep",
+    "speed": 35,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 33,
+    "created": "2013-11-03T15:05:41.639596",
+    "defense": 58,
+    "height": "13",
+    "hp": 190,
+    "name": "Wobbuffet",
+    "speed": 33,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.641064",
+    "defense": 65,
+    "height": "15",
+    "hp": 70,
+    "name": "Girafarig",
+    "speed": 85,
+    "types": [ "normal", "psychic" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.642687",
+    "defense": 90,
+    "height": "6",
+    "hp": 50,
+    "name": "Pineco",
+    "speed": 15,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.644090",
+    "defense": 140,
+    "height": "12",
+    "hp": 75,
+    "name": "Forretress",
+    "speed": 40,
+    "types": [ "bug", "steel" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.645553",
+    "defense": 70,
+    "height": "15",
+    "hp": 100,
+    "name": "Dunsparce",
+    "speed": 45,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.646979",
+    "defense": 105,
+    "height": "11",
+    "hp": 65,
+    "name": "Gligar",
+    "speed": 85,
+    "types": [ "flying", "ground" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.538055",
+    "defense": 90,
+    "height": "5",
+    "hp": 30,
+    "name": "Kabuto",
+    "speed": 55,
+    "types": [ "rock", "water" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:41.541346",
+    "defense": 65,
+    "height": "18",
+    "hp": 80,
+    "name": "Aerodactyl",
+    "speed": 130,
+    "types": [ "flying", "rock" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.546340",
+    "defense": 85,
+    "height": "16",
+    "hp": 90,
+    "name": "Zapdos",
+    "speed": 100,
+    "types": [ "flying", "electric" ]
+  },
+  {
+    "attack": 10,
+    "created": "2013-11-03T15:05:41.655905",
+    "defense": 230,
+    "height": "6",
+    "hp": 20,
+    "name": "Shuckle",
+    "speed": 5,
+    "types": [ "rock", "bug" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.665768",
+    "defense": 120,
+    "height": "8",
+    "hp": 50,
+    "name": "Magcargo",
+    "speed": 30,
+    "types": [ "rock", "fire" ]
+  },
+  {
+    "attack": 125,
+    "created": "2013-11-03T15:05:41.657369",
+    "defense": 75,
+    "height": "15",
+    "hp": 80,
+    "name": "Heracross",
+    "speed": 85,
+    "types": [ "fighting", "bug" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.658846",
+    "defense": 55,
+    "height": "9",
+    "hp": 55,
+    "name": "Sneasel",
+    "speed": 115,
+    "types": [ "ice", "dark" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.662334",
+    "defense": 75,
+    "height": "18",
+    "hp": 90,
+    "name": "Ursaring",
+    "speed": 55,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.664316",
+    "defense": 40,
+    "height": "7",
+    "hp": 40,
+    "name": "Slugma",
+    "speed": 20,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.667216",
+    "defense": 40,
+    "height": "4",
+    "hp": 50,
+    "name": "Swinub",
+    "speed": 50,
+    "types": [ "ground", "ice" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.675081",
+    "defense": 45,
+    "height": "9",
+    "hp": 45,
+    "name": "Delibird",
+    "speed": 75,
+    "types": [ "flying", "ice" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.669051",
+    "defense": 80,
+    "height": "11",
+    "hp": 100,
+    "name": "Piloswine",
+    "speed": 50,
+    "types": [ "ground", "ice" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.670559",
+    "defense": 85,
+    "height": "6",
+    "hp": 55,
+    "name": "Corsola",
+    "speed": 35,
+    "types": [ "rock", "water" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.672030",
+    "defense": 35,
+    "height": "6",
+    "hp": 35,
+    "name": "Remoraid",
+    "speed": 65,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.094536",
+    "defense": 115,
+    "height": "12",
+    "hp": 70,
+    "name": "Magnezone",
+    "speed": 60,
+    "types": [ "steel", "electric" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:42.101870",
+    "defense": 67,
+    "height": "16",
+    "hp": 75,
+    "name": "Magmortar",
+    "speed": 83,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.103601",
+    "defense": 95,
+    "height": "15",
+    "hp": 85,
+    "name": "Togekiss",
+    "speed": 80,
+    "types": [ "flying", "fairy" ]
+  },
+  {
+    "attack": 76,
+    "created": "2013-11-03T15:05:42.105080",
+    "defense": 86,
+    "height": "19",
+    "hp": 86,
+    "name": "Yanmega",
+    "speed": 95,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:42.106790",
+    "defense": 130,
+    "height": "10",
+    "hp": 65,
+    "name": "Leafeon",
+    "speed": 95,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.108206",
+    "defense": 110,
+    "height": "8",
+    "hp": 65,
+    "name": "Glaceon",
+    "speed": 65,
+    "types": [ "ice" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:42.109697",
+    "defense": 125,
+    "height": "20",
+    "hp": 75,
+    "name": "Gliscor",
+    "speed": 95,
+    "types": [ "flying", "ground" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:42.111188",
+    "defense": 80,
+    "height": "25",
+    "hp": 110,
+    "name": "Mamoswine",
+    "speed": 80,
+    "types": [ "ground", "ice" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.112633",
+    "defense": 70,
+    "height": "9",
+    "hp": 85,
+    "name": "Porygon-z",
+    "speed": 90,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 125,
+    "created": "2013-11-03T15:05:42.114087",
+    "defense": 65,
+    "height": "16",
+    "hp": 68,
+    "name": "Gallade",
+    "speed": 80,
+    "types": [ "fighting", "psychic" ]
+  },
+  {
+    "attack": 82,
+    "created": "2013-11-03T15:05:41.268479",
+    "defense": 83,
+    "height": "20",
+    "hp": 80,
+    "name": "Venusaur",
+    "speed": 80,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:41.278310",
+    "defense": 65,
+    "height": "5",
+    "hp": 44,
+    "name": "Squirtle",
+    "speed": 43,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.292792",
+    "defense": 30,
+    "height": "3",
+    "hp": 40,
+    "name": "Weedle",
+    "speed": 50,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.422231",
+    "defense": 115,
+    "height": "10",
+    "hp": 55,
+    "name": "Graveler",
+    "speed": 35,
+    "types": [ "ground", "rock" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.419854",
+    "defense": 100,
+    "height": "4",
+    "hp": 40,
+    "name": "Geodude",
+    "speed": 20,
+    "types": [ "ground", "rock" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.424377",
+    "defense": 130,
+    "height": "14",
+    "hp": 80,
+    "name": "Golem",
+    "speed": 45,
+    "types": [ "ground", "rock" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.426644",
+    "defense": 55,
+    "height": "10",
+    "hp": 50,
+    "name": "Ponyta",
+    "speed": 90,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.428816",
+    "defense": 70,
+    "height": "17",
+    "hp": 65,
+    "name": "Rapidash",
+    "speed": 105,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.432946",
+    "defense": 110,
+    "height": "16",
+    "hp": 95,
+    "name": "Slowbro",
+    "speed": 30,
+    "types": [ "water", "psychic" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.449989",
+    "defense": 50,
+    "height": "9",
+    "hp": 80,
+    "name": "Grimer",
+    "speed": 25,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 73,
+    "created": "2013-11-03T15:05:41.843747",
+    "defense": 55,
+    "height": "7",
+    "hp": 65,
+    "name": "Volbeat",
+    "speed": 85,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.841429",
+    "defense": 50,
+    "height": "4",
+    "hp": 60,
+    "name": "Minun",
+    "speed": 95,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 47,
+    "created": "2013-11-03T15:05:41.846005",
+    "defense": 55,
+    "height": "6",
+    "hp": 65,
+    "name": "Illumise",
+    "speed": 85,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.848326",
+    "defense": 45,
+    "height": "3",
+    "hp": 50,
+    "name": "Roselia",
+    "speed": 65,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 43,
+    "created": "2013-11-03T15:05:41.850597",
+    "defense": 53,
+    "height": "4",
+    "hp": 70,
+    "name": "Gulpin",
+    "speed": 40,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.857336",
+    "defense": 40,
+    "height": "18",
+    "hp": 70,
+    "name": "Sharpedo",
+    "speed": 95,
+    "types": [ "water", "dark" ]
+  },
+  {
+    "attack": 73,
+    "created": "2013-11-03T15:05:41.852827",
+    "defense": 83,
+    "height": "17",
+    "hp": 100,
+    "name": "Swalot",
+    "speed": 55,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.855041",
+    "defense": 20,
+    "height": "8",
+    "hp": 45,
+    "name": "Carvanha",
+    "speed": 65,
+    "types": [ "water", "dark" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.859606",
+    "defense": 35,
+    "height": "20",
+    "hp": 130,
+    "name": "Wailmer",
+    "speed": 60,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.866354",
+    "defense": 70,
+    "height": "19",
+    "hp": 70,
+    "name": "Camerupt",
+    "speed": 40,
+    "types": [ "ground", "fire" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.695191",
+    "defense": 15,
+    "height": "4",
+    "hp": 45,
+    "name": "Smoochum",
+    "speed": 65,
+    "types": [ "ice", "psychic" ]
+  },
+  {
+    "attack": 20,
+    "created": "2013-11-03T15:05:41.690679",
+    "defense": 35,
+    "height": "12",
+    "hp": 55,
+    "name": "Smeargle",
+    "speed": 75,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.692138",
+    "defense": 35,
+    "height": "7",
+    "hp": 35,
+    "name": "Tyrogue",
+    "speed": 35,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 63,
+    "created": "2013-11-03T15:05:41.696801",
+    "defense": 37,
+    "height": "6",
+    "hp": 45,
+    "name": "Elekid",
+    "speed": 95,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.699026",
+    "defense": 37,
+    "height": "7",
+    "hp": 45,
+    "name": "Magby",
+    "speed": 83,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.701309",
+    "defense": 105,
+    "height": "12",
+    "hp": 95,
+    "name": "Miltank",
+    "speed": 100,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 10,
+    "created": "2013-11-03T15:05:41.703509",
+    "defense": 10,
+    "height": "15",
+    "hp": 255,
+    "name": "Blissey",
+    "speed": 55,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.705705",
+    "defense": 75,
+    "height": "19",
+    "hp": 90,
+    "name": "Raikou",
+    "speed": 115,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.710342",
+    "defense": 115,
+    "height": "20",
+    "hp": 100,
+    "name": "Suicune",
+    "speed": 85,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 115,
+    "created": "2013-11-03T15:05:41.707861",
+    "defense": 85,
+    "height": "21",
+    "hp": 115,
+    "name": "Entei",
+    "speed": 100,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.439497",
+    "defense": 55,
+    "height": "8",
+    "hp": 52,
+    "name": "Farfetchd",
+    "speed": 60,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.435237",
+    "defense": 70,
+    "height": "3",
+    "hp": 25,
+    "name": "Magnemite",
+    "speed": 45,
+    "types": [ "steel", "electric" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.437483",
+    "defense": 95,
+    "height": "10",
+    "hp": 50,
+    "name": "Magneton",
+    "speed": 70,
+    "types": [ "steel", "electric" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.441502",
+    "defense": 45,
+    "height": "14",
+    "hp": 35,
+    "name": "Doduo",
+    "speed": 75,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.445749",
+    "defense": 55,
+    "height": "11",
+    "hp": 65,
+    "name": "Seel",
+    "speed": 45,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:41.443720",
+    "defense": 70,
+    "height": "18",
+    "hp": 60,
+    "name": "Dodrio",
+    "speed": 100,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.447897",
+    "defense": 80,
+    "height": "17",
+    "hp": 90,
+    "name": "Dewgong",
+    "speed": 70,
+    "types": [ "water", "ice" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.457865",
+    "defense": 30,
+    "height": "13",
+    "hp": 30,
+    "name": "Gastly",
+    "speed": 80,
+    "types": [ "poison", "ghost" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.456387",
+    "defense": 180,
+    "height": "15",
+    "hp": 50,
+    "name": "Cloyster",
+    "speed": 70,
+    "types": [ "water", "ice" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:41.452237",
+    "defense": 75,
+    "height": "12",
+    "hp": 105,
+    "name": "Muk",
+    "speed": 50,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.679491",
+    "defense": 30,
+    "height": "6",
+    "hp": 45,
+    "name": "Houndour",
+    "speed": 65,
+    "types": [ "fire", "dark" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:41.673551",
+    "defense": 75,
+    "height": "9",
+    "hp": 75,
+    "name": "Octillery",
+    "speed": 45,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.676497",
+    "defense": 70,
+    "height": "21",
+    "hp": 65,
+    "name": "Mantine",
+    "speed": 70,
+    "types": [ "flying", "water" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.687650",
+    "defense": 90,
+    "height": "6",
+    "hp": 85,
+    "name": "Porygon2",
+    "speed": 60,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.677954",
+    "defense": 140,
+    "height": "17",
+    "hp": 65,
+    "name": "Skarmory",
+    "speed": 70,
+    "types": [ "flying", "steel" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.681062",
+    "defense": 50,
+    "height": "14",
+    "hp": 75,
+    "name": "Houndoom",
+    "speed": 95,
+    "types": [ "fire", "dark" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.682713",
+    "defense": 95,
+    "height": "18",
+    "hp": 75,
+    "name": "Kingdra",
+    "speed": 85,
+    "types": [ "water", "dragon" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.684419",
+    "defense": 60,
+    "height": "5",
+    "hp": 90,
+    "name": "Phanpy",
+    "speed": 40,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.689109",
+    "defense": 62,
+    "height": "14",
+    "hp": 73,
+    "name": "Stantler",
+    "speed": 85,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.686096",
+    "defense": 120,
+    "height": "11",
+    "hp": 90,
+    "name": "Donphan",
+    "speed": 50,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 115,
+    "created": "2013-11-03T15:05:42.183255",
+    "defense": 80,
+    "height": "12",
+    "hp": 80,
+    "name": "Unfezant",
+    "speed": 93,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.184698",
+    "defense": 32,
+    "height": "8",
+    "hp": 45,
+    "name": "Blitzle",
+    "speed": 76,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.186244",
+    "defense": 63,
+    "height": "16",
+    "hp": 75,
+    "name": "Zebstrika",
+    "speed": 116,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:42.189162",
+    "defense": 105,
+    "height": "9",
+    "hp": 70,
+    "name": "Boldore",
+    "speed": 20,
+    "types": [ "rock" ]
+  },
+  {
+    "attack": 135,
+    "created": "2013-11-03T15:05:42.190632",
+    "defense": 130,
+    "height": "17",
+    "hp": 85,
+    "name": "Gigalith",
+    "speed": 25,
+    "types": [ "rock" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:42.192074",
+    "defense": 43,
+    "height": "4",
+    "hp": 55,
+    "name": "Woobat",
+    "speed": 72,
+    "types": [ "flying", "psychic" ]
+  },
+  {
+    "attack": 57,
+    "created": "2013-11-03T15:05:42.193529",
+    "defense": 55,
+    "height": "9",
+    "hp": 67,
+    "name": "Swoobat",
+    "speed": 114,
+    "types": [ "flying", "psychic" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.195026",
+    "defense": 40,
+    "height": "3",
+    "hp": 60,
+    "name": "Drilbur",
+    "speed": 68,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 135,
+    "created": "2013-11-03T15:05:42.196494",
+    "defense": 60,
+    "height": "7",
+    "hp": 110,
+    "name": "Excadrill",
+    "speed": 88,
+    "types": [ "ground", "steel" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.197944",
+    "defense": 86,
+    "height": "11",
+    "hp": 103,
+    "name": "Audino",
+    "speed": 50,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.652994",
+    "defense": 75,
+    "height": "5",
+    "hp": 65,
+    "name": "Qwilfish",
+    "speed": 85,
+    "types": [ "poison", "water" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.654501",
+    "defense": 100,
+    "height": "18",
+    "hp": 70,
+    "name": "Scizor",
+    "speed": 65,
+    "types": [ "bug", "steel" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.779585",
+    "defense": 32,
+    "height": "5",
+    "hp": 40,
+    "name": "Surskit",
+    "speed": 65,
+    "types": [ "bug", "water" ]
+  },
+  {
+    "attack": 25,
+    "created": "2013-11-03T15:05:41.774923",
+    "defense": 25,
+    "height": "4",
+    "hp": 28,
+    "name": "Ralts",
+    "speed": 40,
+    "types": [ "fairy", "psychic" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.776462",
+    "defense": 35,
+    "height": "8",
+    "hp": 38,
+    "name": "Kirlia",
+    "speed": 50,
+    "types": [ "fairy", "psychic" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.781082",
+    "defense": 62,
+    "height": "8",
+    "hp": 70,
+    "name": "Masquerain",
+    "speed": 60,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.790301",
+    "defense": 90,
+    "height": "5",
+    "hp": 31,
+    "name": "Nincada",
+    "speed": 40,
+    "types": [ "ground", "bug" ]
+  },
+  {
+    "attack": 160,
+    "created": "2013-11-03T15:05:41.788756",
+    "defense": 100,
+    "height": "20",
+    "hp": 150,
+    "name": "Slaking",
+    "speed": 100,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.782726",
+    "defense": 60,
+    "height": "4",
+    "hp": 60,
+    "name": "Shroomish",
+    "speed": 35,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.784195",
+    "defense": 80,
+    "height": "12",
+    "hp": 60,
+    "name": "Breloom",
+    "speed": 70,
+    "types": [ "fighting", "grass" ]
+  },
+  {
+    "attack": 66,
+    "created": "2013-11-03T15:05:42.530130",
+    "defense": 70,
+    "height": "0",
+    "hp": 54,
+    "name": "Pumpkaboo-large",
+    "speed": 46,
+    "types": [ "ghost", "grass" ]
+  },
+  {
+    "attack": 66,
+    "created": "2013-11-03T15:05:42.531530",
+    "defense": 70,
+    "height": "0",
+    "hp": 59,
+    "name": "Pumpkaboo-super",
+    "speed": 41,
+    "types": [ "ghost", "grass" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.532916",
+    "defense": 122,
+    "height": "0",
+    "hp": 55,
+    "name": "Gourgeist-small",
+    "speed": 99,
+    "types": [ "ghost", "grass" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:42.534443",
+    "defense": 122,
+    "height": "0",
+    "hp": 75,
+    "name": "Gourgeist-large",
+    "speed": 69,
+    "types": [ "ghost", "grass" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.535834",
+    "defense": 122,
+    "height": "0",
+    "hp": 85,
+    "name": "Gourgeist-super",
+    "speed": 54,
+    "types": [ "ghost", "grass" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.537211",
+    "defense": 123,
+    "height": "0",
+    "hp": 80,
+    "name": "Venusaur-mega",
+    "speed": 80,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:42.539182",
+    "defense": 111,
+    "height": "0",
+    "hp": 78,
+    "name": "Charizard-mega-x",
+    "speed": 100,
+    "types": [ "fire", "dragon" ]
+  },
+  {
+    "attack": 104,
+    "created": "2013-11-03T15:05:42.541047",
+    "defense": 78,
+    "height": "0",
+    "hp": 78,
+    "name": "Charizard-mega-y",
+    "speed": 100,
+    "types": [ "flying", "fire" ]
+  },
+  {
+    "attack": 103,
+    "created": "2013-11-03T15:05:42.542919",
+    "defense": 120,
+    "height": "0",
+    "hp": 79,
+    "name": "Blastoise-mega",
+    "speed": 78,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 53,
+    "created": "2013-11-03T15:05:42.448724",
+    "defense": 62,
+    "height": "0",
+    "hp": 50,
+    "name": "Clauncher",
+    "speed": 44,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.751120",
+    "defense": 35,
+    "height": "3",
+    "hp": 45,
+    "name": "Wurmple",
+    "speed": 20,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.735114",
+    "defense": 60,
+    "height": "9",
+    "hp": 60,
+    "name": "Combusken",
+    "speed": 55,
+    "types": [ "fighting", "fire" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.737076",
+    "defense": 70,
+    "height": "19",
+    "hp": 80,
+    "name": "Blaziken",
+    "speed": 80,
+    "types": [ "fighting", "fire" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.738842",
+    "defense": 50,
+    "height": "4",
+    "hp": 50,
+    "name": "Mudkip",
+    "speed": 40,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.740412",
+    "defense": 70,
+    "height": "7",
+    "hp": 70,
+    "name": "Marshtomp",
+    "speed": 50,
+    "types": [ "ground", "water" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.743562",
+    "defense": 35,
+    "height": "5",
+    "hp": 35,
+    "name": "Poochyena",
+    "speed": 35,
+    "types": [ "dark" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.749324",
+    "defense": 61,
+    "height": "5",
+    "hp": 78,
+    "name": "Linoone",
+    "speed": 100,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.752649",
+    "defense": 55,
+    "height": "6",
+    "hp": 50,
+    "name": "Silcoon",
+    "speed": 15,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.745409",
+    "defense": 70,
+    "height": "10",
+    "hp": 70,
+    "name": "Mightyena",
+    "speed": 70,
+    "types": [ "dark" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.754233",
+    "defense": 50,
+    "height": "10",
+    "hp": 60,
+    "name": "Beautifly",
+    "speed": 65,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 160,
+    "created": "2013-11-03T15:05:42.130259",
+    "defense": 110,
+    "height": "37",
+    "hp": 110,
+    "name": "Regigigas",
+    "speed": 100,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.131792",
+    "defense": 120,
+    "height": "45",
+    "hp": 150,
+    "name": "Giratina-altered",
+    "speed": 90,
+    "types": [ "ghost", "dragon" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.252205",
+    "defense": 145,
+    "height": "17",
+    "hp": 58,
+    "name": "Cofagrigus",
+    "speed": 30,
+    "types": [ "ghost" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:42.244248",
+    "defense": 125,
+    "height": "14",
+    "hp": 70,
+    "name": "Crustle",
+    "speed": 45,
+    "types": [ "rock", "bug" ]
+  },
+  {
+    "attack": 78,
+    "created": "2013-11-03T15:05:42.253860",
+    "defense": 103,
+    "height": "7",
+    "hp": 54,
+    "name": "Tirtouga",
+    "speed": 22,
+    "types": [ "rock", "water" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:42.245886",
+    "defense": 70,
+    "height": "6",
+    "hp": 50,
+    "name": "Scraggy",
+    "speed": 48,
+    "types": [ "fighting", "dark" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:42.247594",
+    "defense": 115,
+    "height": "11",
+    "hp": 65,
+    "name": "Scrafty",
+    "speed": 58,
+    "types": [ "fighting", "dark" ]
+  },
+  {
+    "attack": 58,
+    "created": "2013-11-03T15:05:42.249186",
+    "defense": 80,
+    "height": "14",
+    "hp": 72,
+    "name": "Sigilyph",
+    "speed": 97,
+    "types": [ "flying", "psychic" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:42.250764",
+    "defense": 85,
+    "height": "5",
+    "hp": 38,
+    "name": "Yamask",
+    "speed": 30,
+    "types": [ "ghost" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:42.264718",
+    "defense": 60,
+    "height": "16",
+    "hp": 60,
+    "name": "Zoroark",
+    "speed": 105,
+    "types": [ "dark" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.323766",
+    "defense": 90,
+    "height": "10",
+    "hp": 60,
+    "name": "Chandelure",
+    "speed": 80,
+    "types": [ "ghost", "fire" ]
+  },
+  {
+    "attack": 87,
+    "created": "2013-11-03T15:05:42.325227",
+    "defense": 60,
+    "height": "6",
+    "hp": 46,
+    "name": "Axew",
+    "speed": 57,
+    "types": [ "dragon" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.329848",
+    "defense": 40,
+    "height": "5",
+    "hp": 55,
+    "name": "Cubchoo",
+    "speed": 40,
+    "types": [ "ice" ]
+  },
+  {
+    "attack": 147,
+    "created": "2013-11-03T15:05:42.328267",
+    "defense": 90,
+    "height": "18",
+    "hp": 76,
+    "name": "Haxorus",
+    "speed": 97,
+    "types": [ "dragon" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:42.331383",
+    "defense": 80,
+    "height": "26",
+    "hp": 95,
+    "name": "Beartic",
+    "speed": 50,
+    "types": [ "ice" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.332845",
+    "defense": 30,
+    "height": "11",
+    "hp": 70,
+    "name": "Cryogonal",
+    "speed": 105,
+    "types": [ "ice" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:42.334355",
+    "defense": 85,
+    "height": "4",
+    "hp": 50,
+    "name": "Shelmet",
+    "speed": 25,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.335846",
+    "defense": 40,
+    "height": "8",
+    "hp": 80,
+    "name": "Accelgor",
+    "speed": 145,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 66,
+    "created": "2013-11-03T15:05:42.337353",
+    "defense": 84,
+    "height": "7",
+    "hp": 109,
+    "name": "Stunfisk",
+    "speed": 32,
+    "types": [ "ground", "electric" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.338891",
+    "defense": 50,
+    "height": "9",
+    "hp": 45,
+    "name": "Mienfoo",
+    "speed": 65,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.993744",
+    "defense": 50,
+    "height": "6",
+    "hp": 55,
+    "name": "Staravia",
+    "speed": 80,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 25,
+    "created": "2013-11-03T15:05:42.000155",
+    "defense": 41,
+    "height": "3",
+    "hp": 37,
+    "name": "Kricketot",
+    "speed": 25,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.996819",
+    "defense": 40,
+    "height": "5",
+    "hp": 59,
+    "name": "Bidoof",
+    "speed": 31,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.001881",
+    "defense": 51,
+    "height": "10",
+    "hp": 77,
+    "name": "Kricketune",
+    "speed": 65,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.005438",
+    "defense": 49,
+    "height": "9",
+    "hp": 60,
+    "name": "Luxio",
+    "speed": 60,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:42.006958",
+    "defense": 79,
+    "height": "14",
+    "hp": 80,
+    "name": "Luxray",
+    "speed": 70,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:42.008536",
+    "defense": 35,
+    "height": "2",
+    "hp": 40,
+    "name": "Budew",
+    "speed": 55,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.010078",
+    "defense": 65,
+    "height": "9",
+    "hp": 60,
+    "name": "Roserade",
+    "speed": 90,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 125,
+    "created": "2013-11-03T15:05:42.011778",
+    "defense": 40,
+    "height": "9",
+    "hp": 67,
+    "name": "Cranidos",
+    "speed": 58,
+    "types": [ "rock" ]
+  },
+  {
+    "attack": 165,
+    "created": "2013-11-03T15:05:42.013209",
+    "defense": 60,
+    "height": "16",
+    "hp": 97,
+    "name": "Rampardos",
+    "speed": 58,
+    "types": [ "rock" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.454259",
+    "defense": 100,
+    "height": "3",
+    "hp": 30,
+    "name": "Shellder",
+    "speed": 40,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.400041",
+    "defense": 45,
+    "height": "15",
+    "hp": 55,
+    "name": "Alakazam",
+    "speed": 120,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 115,
+    "created": "2013-11-03T15:05:41.539634",
+    "defense": 105,
+    "height": "13",
+    "hp": 60,
+    "name": "Kabutops",
+    "speed": 80,
+    "types": [ "rock", "water" ]
+  },
+  {
+    "attack": 103,
+    "created": "2013-11-03T15:05:42.215506",
+    "defense": 80,
+    "height": "12",
+    "hp": 75,
+    "name": "Leavanny",
+    "speed": 92,
+    "types": [ "bug", "grass" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.650099",
+    "defense": 50,
+    "height": "6",
+    "hp": 60,
+    "name": "Snubbull",
+    "speed": 30,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 134,
+    "created": "2013-11-03T15:05:41.552609",
+    "defense": 95,
+    "height": "22",
+    "hp": 91,
+    "name": "Dragonite",
+    "speed": 80,
+    "types": [ "flying", "dragon" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.648526",
+    "defense": 200,
+    "height": "92",
+    "hp": 75,
+    "name": "Steelix",
+    "speed": 30,
+    "types": [ "ground", "steel" ]
+  },
+  {
+    "attack": 134,
+    "created": "2013-11-03T15:05:41.717580",
+    "defense": 110,
+    "height": "20",
+    "hp": 100,
+    "name": "Tyranitar",
+    "speed": 61,
+    "types": [ "rock", "dark" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.770368",
+    "defense": 60,
+    "height": "7",
+    "hp": 60,
+    "name": "Swellow",
+    "speed": 125,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.861865",
+    "defense": 45,
+    "height": "145",
+    "hp": 170,
+    "name": "Wailord",
+    "speed": 60,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 69,
+    "created": "2013-11-03T15:05:42.495947",
+    "defense": 95,
+    "height": "5",
+    "hp": 60,
+    "name": "Wormadam-trash",
+    "speed": 36,
+    "types": [ "bug", "steel" ]
+  },
+  {
+    "attack": 103,
+    "created": "2013-11-03T15:05:42.497559",
+    "defense": 75,
+    "height": "4",
+    "hp": 100,
+    "name": "Shaymin-sky",
+    "speed": 127,
+    "types": [ "flying", "grass" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.502346",
+    "defense": 107,
+    "height": "3",
+    "hp": 50,
+    "name": "Rotom-wash",
+    "speed": 86,
+    "types": [ "water", "electric" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.503905",
+    "defense": 107,
+    "height": "3",
+    "hp": 50,
+    "name": "Rotom-frost",
+    "speed": 86,
+    "types": [ "electric", "ice" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.505410",
+    "defense": 107,
+    "height": "3",
+    "hp": 50,
+    "name": "Rotom-fan",
+    "speed": 86,
+    "types": [ "flying", "electric" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.506834",
+    "defense": 107,
+    "height": "3",
+    "hp": 50,
+    "name": "Rotom-mow",
+    "speed": 86,
+    "types": [ "grass", "electric" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.508277",
+    "defense": 70,
+    "height": "3",
+    "hp": 70,
+    "name": "Castform-sunny",
+    "speed": 70,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 92,
+    "created": "2013-11-03T15:05:42.512893",
+    "defense": 65,
+    "height": "10",
+    "hp": 70,
+    "name": "Basculin-blue-striped",
+    "speed": 98,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:42.514351",
+    "defense": 105,
+    "height": "13",
+    "hp": 105,
+    "name": "Darmanitan-zen",
+    "speed": 55,
+    "types": [ "fire", "psychic" ]
+  },
+  {
+    "attack": 128,
+    "created": "2013-11-03T15:05:42.515767",
+    "defense": 90,
+    "height": "6",
+    "hp": 100,
+    "name": "Meloetta-pirouette",
+    "speed": 128,
+    "types": [ "normal", "fighting" ]
+  },
+  {
+    "attack": 94,
+    "created": "2013-11-03T15:05:42.306064",
+    "defense": 131,
+    "height": "10",
+    "hp": 74,
+    "name": "Ferrothorn",
+    "speed": 20,
+    "types": [ "steel", "grass" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.312421",
+    "defense": 40,
+    "height": "2",
+    "hp": 35,
+    "name": "Tynamo",
+    "speed": 60,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.307631",
+    "defense": 70,
+    "height": "3",
+    "hp": 40,
+    "name": "Klink",
+    "speed": 30,
+    "types": [ "steel" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.314015",
+    "defense": 70,
+    "height": "12",
+    "hp": 65,
+    "name": "Eelektrik",
+    "speed": 40,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.309146",
+    "defense": 95,
+    "height": "6",
+    "hp": 60,
+    "name": "Klang",
+    "speed": 50,
+    "types": [ "steel" ]
+  },
+  {
+    "attack": 115,
+    "created": "2013-11-03T15:05:42.315779",
+    "defense": 80,
+    "height": "21",
+    "hp": 85,
+    "name": "Eelektross",
+    "speed": 50,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.317323",
+    "defense": 55,
+    "height": "5",
+    "hp": 55,
+    "name": "Elgyem",
+    "speed": 30,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:42.318864",
+    "defense": 75,
+    "height": "10",
+    "hp": 75,
+    "name": "Beheeyem",
+    "speed": 40,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:42.320370",
+    "defense": 55,
+    "height": "3",
+    "hp": 50,
+    "name": "Litwick",
+    "speed": 20,
+    "types": [ "ghost", "fire" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:42.322164",
+    "defense": 60,
+    "height": "6",
+    "hp": 60,
+    "name": "Lampent",
+    "speed": 55,
+    "types": [ "ghost", "fire" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:42.389214",
+    "defense": 40,
+    "height": "0",
+    "hp": 40,
+    "name": "Fennekin",
+    "speed": 60,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 59,
+    "created": "2013-11-03T15:05:42.390738",
+    "defense": 58,
+    "height": "0",
+    "hp": 59,
+    "name": "Braixen",
+    "speed": 73,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 73,
+    "created": "2013-11-03T15:05:42.402996",
+    "defense": 55,
+    "height": "0",
+    "hp": 62,
+    "name": "Fletchinder",
+    "speed": 84,
+    "types": [ "flying", "fire" ]
+  },
+  {
+    "attack": 69,
+    "created": "2013-11-03T15:05:42.392165",
+    "defense": 72,
+    "height": "0",
+    "hp": 75,
+    "name": "Delphox",
+    "speed": 104,
+    "types": [ "fire", "psychic" ]
+  },
+  {
+    "attack": 56,
+    "created": "2013-11-03T15:05:42.393656",
+    "defense": 41,
+    "height": "0",
+    "hp": 41,
+    "name": "Froakie",
+    "speed": 71,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 63,
+    "created": "2013-11-03T15:05:42.395148",
+    "defense": 52,
+    "height": "0",
+    "hp": 54,
+    "name": "Frogadier",
+    "speed": 97,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:42.396615",
+    "defense": 67,
+    "height": "0",
+    "hp": 72,
+    "name": "Greninja",
+    "speed": 122,
+    "types": [ "water", "dark" ]
+  },
+  {
+    "attack": 36,
+    "created": "2013-11-03T15:05:42.398121",
+    "defense": 38,
+    "height": "0",
+    "hp": 38,
+    "name": "Bunnelby",
+    "speed": 57,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 56,
+    "created": "2013-11-03T15:05:42.399736",
+    "defense": 77,
+    "height": "0",
+    "hp": 85,
+    "name": "Diggersby",
+    "speed": 78,
+    "types": [ "normal", "ground" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.401321",
+    "defense": 43,
+    "height": "0",
+    "hp": 45,
+    "name": "Fletchling",
+    "speed": 62,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:41.467428",
+    "defense": 90,
+    "height": "4",
+    "hp": 30,
+    "name": "Krabby",
+    "speed": 50,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.459398",
+    "defense": 45,
+    "height": "16",
+    "hp": 45,
+    "name": "Haunter",
+    "speed": 95,
+    "types": [ "poison", "ghost" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.460936",
+    "defense": 60,
+    "height": "15",
+    "hp": 60,
+    "name": "Gengar",
+    "speed": 110,
+    "types": [ "poison", "ghost" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.462665",
+    "defense": 160,
+    "height": "88",
+    "hp": 35,
+    "name": "Onix",
+    "speed": 70,
+    "types": [ "ground", "rock" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:41.464231",
+    "defense": 45,
+    "height": "10",
+    "hp": 60,
+    "name": "Drowzee",
+    "speed": 42,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 73,
+    "created": "2013-11-03T15:05:41.465814",
+    "defense": 70,
+    "height": "16",
+    "hp": 85,
+    "name": "Hypno",
+    "speed": 67,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.469137",
+    "defense": 115,
+    "height": "13",
+    "hp": 55,
+    "name": "Kingler",
+    "speed": 75,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.470928",
+    "defense": 50,
+    "height": "5",
+    "hp": 40,
+    "name": "Voltorb",
+    "speed": 100,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.472484",
+    "defense": 70,
+    "height": "12",
+    "hp": 60,
+    "name": "Electrode",
+    "speed": 140,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.474174",
+    "defense": 80,
+    "height": "4",
+    "hp": 60,
+    "name": "Exeggcute",
+    "speed": 40,
+    "types": [ "grass", "psychic" ]
+  },
+  {
+    "attack": 64,
+    "created": "2013-11-03T15:05:41.712928",
+    "defense": 50,
+    "height": "6",
+    "hp": 50,
+    "name": "Larvitar",
+    "speed": 41,
+    "types": [ "ground", "rock" ]
+  },
+  {
+    "attack": 84,
+    "created": "2013-11-03T15:05:41.715329",
+    "defense": 70,
+    "height": "12",
+    "hp": 70,
+    "name": "Pupitar",
+    "speed": 51,
+    "types": [ "ground", "rock" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:41.741866",
+    "defense": 90,
+    "height": "15",
+    "hp": 100,
+    "name": "Swampert",
+    "speed": 60,
+    "types": [ "ground", "water" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.719816",
+    "defense": 130,
+    "height": "52",
+    "hp": 106,
+    "name": "Lugia",
+    "speed": 110,
+    "types": [ "flying", "psychic" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.730884",
+    "defense": 65,
+    "height": "17",
+    "hp": 70,
+    "name": "Sceptile",
+    "speed": 120,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:41.722030",
+    "defense": 90,
+    "height": "38",
+    "hp": 106,
+    "name": "Ho-oh",
+    "speed": 90,
+    "types": [ "flying", "fire" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.724234",
+    "defense": 100,
+    "height": "6",
+    "hp": 100,
+    "name": "Celebi",
+    "speed": 100,
+    "types": [ "grass", "psychic" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.726536",
+    "defense": 35,
+    "height": "5",
+    "hp": 40,
+    "name": "Treecko",
+    "speed": 70,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.728686",
+    "defense": 45,
+    "height": "9",
+    "hp": 50,
+    "name": "Grovyle",
+    "speed": 95,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.733019",
+    "defense": 40,
+    "height": "4",
+    "hp": 45,
+    "name": "Torchic",
+    "speed": 45,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.220175",
+    "defense": 99,
+    "height": "12",
+    "hp": 40,
+    "name": "Whirlipede",
+    "speed": 47,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 92,
+    "created": "2013-11-03T15:05:42.232233",
+    "defense": 65,
+    "height": "10",
+    "hp": 70,
+    "name": "Basculin-red-striped",
+    "speed": 98,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.222375",
+    "defense": 89,
+    "height": "25",
+    "hp": 60,
+    "name": "Scolipede",
+    "speed": 112,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 27,
+    "created": "2013-11-03T15:05:42.224502",
+    "defense": 60,
+    "height": "3",
+    "hp": 40,
+    "name": "Cottonee",
+    "speed": 66,
+    "types": [ "grass", "fairy" ]
+  },
+  {
+    "attack": 67,
+    "created": "2013-11-03T15:05:42.226632",
+    "defense": 85,
+    "height": "7",
+    "hp": 60,
+    "name": "Whimsicott",
+    "speed": 116,
+    "types": [ "grass", "fairy" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:42.228695",
+    "defense": 50,
+    "height": "5",
+    "hp": 45,
+    "name": "Petilil",
+    "speed": 30,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.230656",
+    "defense": 75,
+    "height": "11",
+    "hp": 70,
+    "name": "Lilligant",
+    "speed": 90,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 72,
+    "created": "2013-11-03T15:05:42.233806",
+    "defense": 35,
+    "height": "7",
+    "hp": 50,
+    "name": "Sandile",
+    "speed": 65,
+    "types": [ "ground", "dark" ]
+  },
+  {
+    "attack": 82,
+    "created": "2013-11-03T15:05:42.235337",
+    "defense": 45,
+    "height": "10",
+    "hp": 60,
+    "name": "Krokorok",
+    "speed": 74,
+    "types": [ "ground", "dark" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.136216",
+    "defense": 100,
+    "height": "3",
+    "hp": 100,
+    "name": "Manaphy",
+    "speed": 100,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 82,
+    "created": "2013-11-03T15:05:42.050082",
+    "defense": 64,
+    "height": "10",
+    "hp": 71,
+    "name": "Purugly",
+    "speed": 112,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 63,
+    "created": "2013-11-03T15:05:42.052920",
+    "defense": 47,
+    "height": "4",
+    "hp": 63,
+    "name": "Stunky",
+    "speed": 74,
+    "types": [ "poison", "dark" ]
+  },
+  {
+    "attack": 93,
+    "created": "2013-11-03T15:05:42.054478",
+    "defense": 67,
+    "height": "10",
+    "hp": 103,
+    "name": "Skuntank",
+    "speed": 84,
+    "types": [ "poison", "dark" ]
+  },
+  {
+    "attack": 5,
+    "created": "2013-11-03T15:05:42.061719",
+    "defense": 5,
+    "height": "6",
+    "hp": 100,
+    "name": "Happiny",
+    "speed": 30,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 24,
+    "created": "2013-11-03T15:05:42.055855",
+    "defense": 86,
+    "height": "5",
+    "hp": 57,
+    "name": "Bronzor",
+    "speed": 23,
+    "types": [ "steel", "psychic" ]
+  },
+  {
+    "attack": 89,
+    "created": "2013-11-03T15:05:42.057300",
+    "defense": 116,
+    "height": "13",
+    "hp": 67,
+    "name": "Bronzong",
+    "speed": 33,
+    "types": [ "steel", "psychic" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.058791",
+    "defense": 95,
+    "height": "5",
+    "hp": 50,
+    "name": "Bonsly",
+    "speed": 10,
+    "types": [ "rock" ]
+  },
+  {
+    "attack": 25,
+    "created": "2013-11-03T15:05:42.060271",
+    "defense": 45,
+    "height": "6",
+    "hp": 20,
+    "name": "Mime-jr",
+    "speed": 60,
+    "types": [ "fairy", "psychic" ]
+  },
+  {
+    "attack": 92,
+    "created": "2013-11-03T15:05:42.064601",
+    "defense": 108,
+    "height": "10",
+    "hp": 50,
+    "name": "Spiritomb",
+    "speed": 35,
+    "types": [ "ghost", "dark" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.066224",
+    "defense": 45,
+    "height": "7",
+    "hp": 58,
+    "name": "Gible",
+    "speed": 42,
+    "types": [ "ground", "dragon" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.038333",
+    "defense": 66,
+    "height": "12",
+    "hp": 75,
+    "name": "Ambipom",
+    "speed": 115,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.033779",
+    "defense": 70,
+    "height": "5",
+    "hp": 70,
+    "name": "Cherrim",
+    "speed": 85,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 83,
+    "created": "2013-11-03T15:05:42.036868",
+    "defense": 68,
+    "height": "9",
+    "hp": 111,
+    "name": "Gastrodon",
+    "speed": 39,
+    "types": [ "ground", "water" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.041107",
+    "defense": 44,
+    "height": "12",
+    "hp": 150,
+    "name": "Drifblim",
+    "speed": 80,
+    "types": [ "flying", "ghost" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.039716",
+    "defense": 34,
+    "height": "4",
+    "hp": 90,
+    "name": "Drifloon",
+    "speed": 70,
+    "types": [ "flying", "ghost" ]
+  },
+  {
+    "attack": 66,
+    "created": "2013-11-03T15:05:42.042786",
+    "defense": 44,
+    "height": "4",
+    "hp": 55,
+    "name": "Buneary",
+    "speed": 85,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 76,
+    "created": "2013-11-03T15:05:42.044215",
+    "defense": 84,
+    "height": "12",
+    "hp": 65,
+    "name": "Lopunny",
+    "speed": 105,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:42.051515",
+    "defense": 50,
+    "height": "2",
+    "hp": 45,
+    "name": "Chingling",
+    "speed": 45,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 125,
+    "created": "2013-11-03T15:05:42.047176",
+    "defense": 52,
+    "height": "9",
+    "hp": 100,
+    "name": "Honchkrow",
+    "speed": 71,
+    "types": [ "flying", "dark" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.048589",
+    "defense": 42,
+    "height": "5",
+    "hp": 49,
+    "name": "Glameow",
+    "speed": 85,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.626205",
+    "defense": 45,
+    "height": "12",
+    "hp": 65,
+    "name": "Yanma",
+    "speed": 95,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.621699",
+    "defense": 55,
+    "height": "8",
+    "hp": 55,
+    "name": "Aipom",
+    "speed": 85,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.623266",
+    "defense": 30,
+    "height": "3",
+    "hp": 30,
+    "name": "Sunkern",
+    "speed": 30,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.627694",
+    "defense": 45,
+    "height": "4",
+    "hp": 55,
+    "name": "Wooper",
+    "speed": 15,
+    "types": [ "ground", "water" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.629108",
+    "defense": 85,
+    "height": "14",
+    "hp": 95,
+    "name": "Quagsire",
+    "speed": 35,
+    "types": [ "ground", "water" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:41.633788",
+    "defense": 42,
+    "height": "5",
+    "hp": 60,
+    "name": "Murkrow",
+    "speed": 91,
+    "types": [ "flying", "dark" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.630651",
+    "defense": 60,
+    "height": "9",
+    "hp": 65,
+    "name": "Espeon",
+    "speed": 110,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.636639",
+    "defense": 60,
+    "height": "7",
+    "hp": 60,
+    "name": "Misdreavus",
+    "speed": 85,
+    "types": [ "ghost" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.632273",
+    "defense": 110,
+    "height": "10",
+    "hp": 95,
+    "name": "Umbreon",
+    "speed": 65,
+    "types": [ "dark" ]
+  },
+  {
+    "attack": 72,
+    "created": "2013-11-03T15:05:41.638089",
+    "defense": 48,
+    "height": "5",
+    "hp": 48,
+    "name": "Unown",
+    "speed": 48,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.355287",
+    "defense": 105,
+    "height": "12",
+    "hp": 110,
+    "name": "Mandibuzz",
+    "speed": 80,
+    "types": [ "flying", "dark" ]
+  },
+  {
+    "attack": 97,
+    "created": "2013-11-03T15:05:42.356774",
+    "defense": 66,
+    "height": "14",
+    "hp": 85,
+    "name": "Heatmor",
+    "speed": 65,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 109,
+    "created": "2013-11-03T15:05:42.358198",
+    "defense": 112,
+    "height": "3",
+    "hp": 58,
+    "name": "Durant",
+    "speed": 109,
+    "types": [ "bug", "steel" ]
+  },
+  {
+    "attack": 107,
+    "created": "2013-11-03T15:05:42.387813",
+    "defense": 122,
+    "height": "0",
+    "hp": 88,
+    "name": "Chesnaught",
+    "speed": 64,
+    "types": [ "fighting", "grass" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:42.362742",
+    "defense": 90,
+    "height": "18",
+    "hp": 92,
+    "name": "Hydreigon",
+    "speed": 98,
+    "types": [ "dragon", "dark" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.364161",
+    "defense": 55,
+    "height": "11",
+    "hp": 55,
+    "name": "Larvesta",
+    "speed": 60,
+    "types": [ "bug", "fire" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.365623",
+    "defense": 65,
+    "height": "16",
+    "hp": 85,
+    "name": "Volcarona",
+    "speed": 100,
+    "types": [ "bug", "fire" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:42.367122",
+    "defense": 129,
+    "height": "21",
+    "hp": 91,
+    "name": "Cobalion",
+    "speed": 108,
+    "types": [ "fighting", "steel" ]
+  },
+  {
+    "attack": 129,
+    "created": "2013-11-03T15:05:42.368560",
+    "defense": 90,
+    "height": "19",
+    "hp": 91,
+    "name": "Terrakion",
+    "speed": 108,
+    "types": [ "fighting", "rock" ]
+  },
+  {
+    "attack": 115,
+    "created": "2013-11-03T15:05:42.373006",
+    "defense": 70,
+    "height": "15",
+    "hp": 79,
+    "name": "Thundurus-incarnate",
+    "speed": 111,
+    "types": [ "flying", "electric" ]
+  },
+  {
+    "attack": 84,
+    "created": "2013-11-03T15:05:41.566107",
+    "defense": 78,
+    "height": "17",
+    "hp": 78,
+    "name": "Typhlosion",
+    "speed": 100,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.569914",
+    "defense": 80,
+    "height": "11",
+    "hp": 65,
+    "name": "Croconaw",
+    "speed": 58,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:41.571696",
+    "defense": 100,
+    "height": "23",
+    "hp": 85,
+    "name": "Feraligatr",
+    "speed": 78,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.579327",
+    "defense": 50,
+    "height": "16",
+    "hp": 100,
+    "name": "Noctowl",
+    "speed": 70,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 46,
+    "created": "2013-11-03T15:05:41.573354",
+    "defense": 34,
+    "height": "8",
+    "hp": 35,
+    "name": "Sentret",
+    "speed": 20,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 76,
+    "created": "2013-11-03T15:05:41.575237",
+    "defense": 64,
+    "height": "18",
+    "hp": 85,
+    "name": "Furret",
+    "speed": 90,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.577296",
+    "defense": 30,
+    "height": "7",
+    "hp": 60,
+    "name": "Hoothoot",
+    "speed": 50,
+    "types": [ "normal", "flying" ]
+  },
+  {
+    "attack": 20,
+    "created": "2013-11-03T15:05:41.581023",
+    "defense": 30,
+    "height": "10",
+    "hp": 40,
+    "name": "Ledyba",
+    "speed": 55,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:41.582787",
+    "defense": 50,
+    "height": "14",
+    "hp": 55,
+    "name": "Ledian",
+    "speed": 85,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.585939",
+    "defense": 70,
+    "height": "11",
+    "hp": 70,
+    "name": "Ariados",
+    "speed": 40,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 82,
+    "created": "2013-11-03T15:05:42.421867",
+    "defense": 62,
+    "height": "0",
+    "hp": 67,
+    "name": "Pancham",
+    "speed": 43,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:42.427766",
+    "defense": 76,
+    "height": "0",
+    "hp": 74,
+    "name": "Meowstic-male",
+    "speed": 104,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.424899",
+    "defense": 60,
+    "height": "0",
+    "hp": 75,
+    "name": "Furfrou",
+    "speed": 102,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:42.426356",
+    "defense": 54,
+    "height": "0",
+    "hp": 62,
+    "name": "Espurr",
+    "speed": 68,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.429220",
+    "defense": 100,
+    "height": "0",
+    "hp": 45,
+    "name": "Honedge",
+    "speed": 28,
+    "types": [ "ghost", "steel" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:42.430705",
+    "defense": 150,
+    "height": "0",
+    "hp": 59,
+    "name": "Doublade",
+    "speed": 35,
+    "types": [ "ghost", "steel" ]
+  },
+  {
+    "attack": 52,
+    "created": "2013-11-03T15:05:42.433633",
+    "defense": 60,
+    "height": "0",
+    "hp": 78,
+    "name": "Spritzee",
+    "speed": 23,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:42.436632",
+    "defense": 66,
+    "height": "0",
+    "hp": 62,
+    "name": "Swirlix",
+    "speed": 49,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 72,
+    "created": "2013-11-03T15:05:42.435078",
+    "defense": 72,
+    "height": "0",
+    "hp": 101,
+    "name": "Aromatisse",
+    "speed": 29,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.438232",
+    "defense": 86,
+    "height": "0",
+    "hp": 82,
+    "name": "Slurpuff",
+    "speed": 72,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.115581",
+    "defense": 145,
+    "height": "14",
+    "hp": 60,
+    "name": "Probopass",
+    "speed": 40,
+    "types": [ "rock", "steel" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.117068",
+    "defense": 135,
+    "height": "22",
+    "hp": 45,
+    "name": "Dusknoir",
+    "speed": 45,
+    "types": [ "ghost" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.118558",
+    "defense": 70,
+    "height": "13",
+    "hp": 70,
+    "name": "Froslass",
+    "speed": 110,
+    "types": [ "ghost", "ice" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.120019",
+    "defense": 77,
+    "height": "3",
+    "hp": 50,
+    "name": "Rotom",
+    "speed": 91,
+    "types": [ "ghost", "electric" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:42.121518",
+    "defense": 130,
+    "height": "3",
+    "hp": 75,
+    "name": "Uxie",
+    "speed": 95,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:42.122936",
+    "defense": 105,
+    "height": "3",
+    "hp": 80,
+    "name": "Mesprit",
+    "speed": 80,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:42.125811",
+    "defense": 120,
+    "height": "54",
+    "hp": 100,
+    "name": "Dialga",
+    "speed": 90,
+    "types": [ "steel", "dragon" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.024034",
+    "defense": 102,
+    "height": "12",
+    "hp": 70,
+    "name": "Vespiquen",
+    "speed": 40,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:42.026053",
+    "defense": 70,
+    "height": "4",
+    "hp": 60,
+    "name": "Pachirisu",
+    "speed": 95,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.028189",
+    "defense": 35,
+    "height": "7",
+    "hp": 55,
+    "name": "Buizel",
+    "speed": 85,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 93,
+    "created": "2013-11-03T15:05:42.149726",
+    "defense": 55,
+    "height": "10",
+    "hp": 90,
+    "name": "Pignite",
+    "speed": 55,
+    "types": [ "fighting", "fire" ]
+  },
+  {
+    "attack": 123,
+    "created": "2013-11-03T15:05:42.151222",
+    "defense": 65,
+    "height": "16",
+    "hp": 110,
+    "name": "Emboar",
+    "speed": 65,
+    "types": [ "fighting", "fire" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.152791",
+    "defense": 45,
+    "height": "5",
+    "hp": 55,
+    "name": "Oshawott",
+    "speed": 45,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:42.154362",
+    "defense": 60,
+    "height": "8",
+    "hp": 75,
+    "name": "Dewott",
+    "speed": 60,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.158933",
+    "defense": 69,
+    "height": "11",
+    "hp": 60,
+    "name": "Watchog",
+    "speed": 77,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.160710",
+    "defense": 45,
+    "height": "4",
+    "hp": 45,
+    "name": "Lillipup",
+    "speed": 55,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:42.162292",
+    "defense": 65,
+    "height": "9",
+    "hp": 65,
+    "name": "Herdier",
+    "speed": 60,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:42.163756",
+    "defense": 90,
+    "height": "12",
+    "hp": 85,
+    "name": "Stoutland",
+    "speed": 80,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.165233",
+    "defense": 37,
+    "height": "4",
+    "hp": 41,
+    "name": "Purrloin",
+    "speed": 66,
+    "types": [ "dark" ]
+  },
+  {
+    "attack": 88,
+    "created": "2013-11-03T15:05:42.166693",
+    "defense": 50,
+    "height": "11",
+    "hp": 64,
+    "name": "Liepard",
+    "speed": 106,
+    "types": [ "dark" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.787307",
+    "defense": 80,
+    "height": "14",
+    "hp": 80,
+    "name": "Vigoroth",
+    "speed": 90,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.791942",
+    "defense": 45,
+    "height": "8",
+    "hp": 61,
+    "name": "Ninjask",
+    "speed": 160,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 91,
+    "created": "2013-11-03T15:05:41.800807",
+    "defense": 63,
+    "height": "15",
+    "hp": 104,
+    "name": "Exploud",
+    "speed": 68,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 51,
+    "created": "2013-11-03T15:05:41.796220",
+    "defense": 23,
+    "height": "6",
+    "hp": 64,
+    "name": "Whismur",
+    "speed": 28,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.815477",
+    "defense": 65,
+    "height": "11",
+    "hp": 70,
+    "name": "Delcatty",
+    "speed": 70,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 71,
+    "created": "2013-11-03T15:05:41.798604",
+    "defense": 43,
+    "height": "10",
+    "hp": 84,
+    "name": "Loudred",
+    "speed": 48,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:41.810942",
+    "defense": 135,
+    "height": "10",
+    "hp": 30,
+    "name": "Nosepass",
+    "speed": 30,
+    "types": [ "rock" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.803026",
+    "defense": 30,
+    "height": "10",
+    "hp": 72,
+    "name": "Makuhita",
+    "speed": 25,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.805994",
+    "defense": 60,
+    "height": "23",
+    "hp": 144,
+    "name": "Hariyama",
+    "speed": 50,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 20,
+    "created": "2013-11-03T15:05:41.808611",
+    "defense": 40,
+    "height": "2",
+    "hp": 50,
+    "name": "Azurill",
+    "speed": 20,
+    "types": [ "normal", "fairy" ]
+  },
+  {
+    "attack": 115,
+    "created": "2013-11-03T15:05:41.883869",
+    "defense": 60,
+    "height": "13",
+    "hp": 70,
+    "name": "Cacturne",
+    "speed": 55,
+    "types": [ "grass", "dark" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.887371",
+    "defense": 90,
+    "height": "11",
+    "hp": 75,
+    "name": "Altaria",
+    "speed": 80,
+    "types": [ "flying", "dragon" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.895602",
+    "defense": 85,
+    "height": "12",
+    "hp": 70,
+    "name": "Solrock",
+    "speed": 70,
+    "types": [ "rock", "psychic" ]
+  },
+  {
+    "attack": 78,
+    "created": "2013-11-03T15:05:41.898894",
+    "defense": 73,
+    "height": "9",
+    "hp": 110,
+    "name": "Whiscash",
+    "speed": 60,
+    "types": [ "ground", "water" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.893909",
+    "defense": 65,
+    "height": "10",
+    "hp": 70,
+    "name": "Lunatone",
+    "speed": 70,
+    "types": [ "rock", "psychic" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.892274",
+    "defense": 60,
+    "height": "27",
+    "hp": 73,
+    "name": "Seviper",
+    "speed": 65,
+    "types": [ "poison" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:41.897229",
+    "defense": 43,
+    "height": "4",
+    "hp": 50,
+    "name": "Barboach",
+    "speed": 60,
+    "types": [ "ground", "water" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.900474",
+    "defense": 65,
+    "height": "6",
+    "hp": 43,
+    "name": "Corphish",
+    "speed": 35,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:41.902113",
+    "defense": 85,
+    "height": "11",
+    "hp": 63,
+    "name": "Crawdaunt",
+    "speed": 55,
+    "types": [ "water", "dark" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.903637",
+    "defense": 55,
+    "height": "5",
+    "hp": 40,
+    "name": "Baltoy",
+    "speed": 55,
+    "types": [ "ground", "psychic" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:42.370059",
+    "defense": 72,
+    "height": "20",
+    "hp": 91,
+    "name": "Virizion",
+    "speed": 108,
+    "types": [ "fighting", "grass" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:42.374502",
+    "defense": 100,
+    "height": "32",
+    "hp": 100,
+    "name": "Reshiram",
+    "speed": 90,
+    "types": [ "fire", "dragon" ]
+  },
+  {
+    "attack": 150,
+    "created": "2013-11-03T15:05:42.376066",
+    "defense": 120,
+    "height": "29",
+    "hp": 100,
+    "name": "Zekrom",
+    "speed": 90,
+    "types": [ "electric", "dragon" ]
+  },
+  {
+    "attack": 125,
+    "created": "2013-11-03T15:05:42.377547",
+    "defense": 90,
+    "height": "15",
+    "hp": 89,
+    "name": "Landorus-incarnate",
+    "speed": 101,
+    "types": [ "flying", "ground" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:42.379024",
+    "defense": 90,
+    "height": "30",
+    "hp": 125,
+    "name": "Kyurem",
+    "speed": 95,
+    "types": [ "ice", "dragon" ]
+  },
+  {
+    "attack": 72,
+    "created": "2013-11-03T15:05:42.380465",
+    "defense": 90,
+    "height": "14",
+    "hp": 91,
+    "name": "Keldeo-ordinary",
+    "speed": 108,
+    "types": [ "fighting", "water" ]
+  },
+  {
+    "attack": 77,
+    "created": "2013-11-03T15:05:42.381927",
+    "defense": 77,
+    "height": "6",
+    "hp": 100,
+    "name": "Meloetta-aria",
+    "speed": 90,
+    "types": [ "normal", "psychic" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:42.383395",
+    "defense": 95,
+    "height": "15",
+    "hp": 71,
+    "name": "Genesect",
+    "speed": 99,
+    "types": [ "bug", "steel" ]
+  },
+  {
+    "attack": 61,
+    "created": "2013-11-03T15:05:42.384892",
+    "defense": 65,
+    "height": "0",
+    "hp": 56,
+    "name": "Chespin",
+    "speed": 38,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 78,
+    "created": "2013-11-03T15:05:42.386352",
+    "defense": 95,
+    "height": "0",
+    "hp": 61,
+    "name": "Quilladin",
+    "speed": 57,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:42.289568",
+    "defense": 60,
+    "height": "4",
+    "hp": 55,
+    "name": "Emolga",
+    "speed": 103,
+    "types": [ "flying", "electric" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.294005",
+    "defense": 45,
+    "height": "2",
+    "hp": 69,
+    "name": "Foongus",
+    "speed": 15,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 135,
+    "created": "2013-11-03T15:05:42.292535",
+    "defense": 105,
+    "height": "10",
+    "hp": 70,
+    "name": "Escavalier",
+    "speed": 20,
+    "types": [ "bug", "steel" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.295609",
+    "defense": 70,
+    "height": "6",
+    "hp": 114,
+    "name": "Amoonguss",
+    "speed": 30,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:42.297039",
+    "defense": 50,
+    "height": "12",
+    "hp": 55,
+    "name": "Frillish",
+    "speed": 40,
+    "types": [ "ghost", "water" ]
+  },
+  {
+    "attack": 77,
+    "created": "2013-11-03T15:05:42.303056",
+    "defense": 60,
+    "height": "8",
+    "hp": 70,
+    "name": "Galvantula",
+    "speed": 108,
+    "types": [ "bug", "electric" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.298498",
+    "defense": 70,
+    "height": "22",
+    "hp": 100,
+    "name": "Jellicent",
+    "speed": 60,
+    "types": [ "ghost", "water" ]
+  },
+  {
+    "attack": 47,
+    "created": "2013-11-03T15:05:42.301523",
+    "defense": 50,
+    "height": "1",
+    "hp": 50,
+    "name": "Joltik",
+    "speed": 65,
+    "types": [ "bug", "electric" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:42.299993",
+    "defense": 80,
+    "height": "12",
+    "hp": 165,
+    "name": "Alomomola",
+    "speed": 65,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.304489",
+    "defense": 91,
+    "height": "6",
+    "hp": 44,
+    "name": "Ferroseed",
+    "speed": 10,
+    "types": [ "steel", "grass" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.905208",
+    "defense": 105,
+    "height": "15",
+    "hp": 60,
+    "name": "Claydol",
+    "speed": 75,
+    "types": [ "ground", "psychic" ]
+  },
+  {
+    "attack": 41,
+    "created": "2013-11-03T15:05:41.906990",
+    "defense": 77,
+    "height": "10",
+    "hp": 66,
+    "name": "Lileep",
+    "speed": 23,
+    "types": [ "rock", "grass" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:41.773442",
+    "defense": 100,
+    "height": "12",
+    "hp": 60,
+    "name": "Pelipper",
+    "speed": 65,
+    "types": [ "flying", "water" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.771944",
+    "defense": 30,
+    "height": "6",
+    "hp": 40,
+    "name": "Wingull",
+    "speed": 85,
+    "types": [ "flying", "water" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.785759",
+    "defense": 60,
+    "height": "8",
+    "hp": 60,
+    "name": "Slakoth",
+    "speed": 30,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 115,
+    "created": "2013-11-03T15:05:41.922368",
+    "defense": 65,
+    "height": "11",
+    "hp": 64,
+    "name": "Banette",
+    "speed": 65,
+    "types": [ "ghost" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.915504",
+    "defense": 79,
+    "height": "62",
+    "hp": 95,
+    "name": "Milotic",
+    "speed": 81,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 40,
+    "created": "2013-11-03T15:05:41.923916",
+    "defense": 90,
+    "height": "8",
+    "hp": 20,
+    "name": "Duskull",
+    "speed": 25,
+    "types": [ "ghost" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.918482",
+    "defense": 70,
+    "height": "10",
+    "hp": 60,
+    "name": "Kecleon",
+    "speed": 40,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.920250",
+    "defense": 35,
+    "height": "6",
+    "hp": 44,
+    "name": "Shuppet",
+    "speed": 45,
+    "types": [ "ghost" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:42.073692",
+    "defense": 70,
+    "height": "12",
+    "hp": 70,
+    "name": "Lucario",
+    "speed": 90,
+    "types": [ "fighting", "steel" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:42.067781",
+    "defense": 65,
+    "height": "14",
+    "hp": 68,
+    "name": "Gabite",
+    "speed": 82,
+    "types": [ "ground", "dragon" ]
+  },
+  {
+    "attack": 130,
+    "created": "2013-11-03T15:05:42.069255",
+    "defense": 95,
+    "height": "19",
+    "hp": 108,
+    "name": "Garchomp",
+    "speed": 102,
+    "types": [ "ground", "dragon" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:42.079654",
+    "defense": 110,
+    "height": "13",
+    "hp": 70,
+    "name": "Drapion",
+    "speed": 95,
+    "types": [ "poison", "dark" ]
+  },
+  {
+    "attack": 72,
+    "created": "2013-11-03T15:05:42.075151",
+    "defense": 78,
+    "height": "8",
+    "hp": 68,
+    "name": "Hippopotas",
+    "speed": 32,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 85,
+    "created": "2013-11-03T15:05:42.070707",
+    "defense": 40,
+    "height": "6",
+    "hp": 135,
+    "name": "Munchlax",
+    "speed": 5,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.072195",
+    "defense": 40,
+    "height": "7",
+    "hp": 40,
+    "name": "Riolu",
+    "speed": 60,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 112,
+    "created": "2013-11-03T15:05:42.076593",
+    "defense": 118,
+    "height": "20",
+    "hp": 108,
+    "name": "Hippowdon",
+    "speed": 47,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 61,
+    "created": "2013-11-03T15:05:42.081204",
+    "defense": 40,
+    "height": "7",
+    "hp": 48,
+    "name": "Croagunk",
+    "speed": 50,
+    "types": [ "fighting", "poison" ]
+  },
+  {
+    "attack": 106,
+    "created": "2013-11-03T15:05:42.082658",
+    "defense": 65,
+    "height": "13",
+    "hp": 83,
+    "name": "Toxicroak",
+    "speed": 85,
+    "types": [ "fighting", "poison" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.358543",
+    "defense": 80,
+    "height": "10",
+    "hp": 60,
+    "name": "Parasect",
+    "speed": 30,
+    "types": [ "bug", "grass" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.363198",
+    "defense": 60,
+    "height": "15",
+    "hp": 70,
+    "name": "Venomoth",
+    "speed": 90,
+    "types": [ "poison", "bug" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.365518",
+    "defense": 25,
+    "height": "2",
+    "hp": 10,
+    "name": "Diglett",
+    "speed": 95,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.367923",
+    "defense": 50,
+    "height": "7",
+    "hp": 35,
+    "name": "Dugtrio",
+    "speed": 120,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.372215",
+    "defense": 60,
+    "height": "10",
+    "hp": 65,
+    "name": "Persian",
+    "speed": 115,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 52,
+    "created": "2013-11-03T15:05:41.374701",
+    "defense": 48,
+    "height": "8",
+    "hp": 50,
+    "name": "Psyduck",
+    "speed": 55,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 82,
+    "created": "2013-11-03T15:05:41.377260",
+    "defense": 78,
+    "height": "17",
+    "hp": 80,
+    "name": "Golduck",
+    "speed": 85,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.379525",
+    "defense": 35,
+    "height": "5",
+    "hp": 40,
+    "name": "Mankey",
+    "speed": 70,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:41.383923",
+    "defense": 45,
+    "height": "7",
+    "hp": 55,
+    "name": "Growlithe",
+    "speed": 60,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 110,
+    "created": "2013-11-03T15:05:41.386144",
+    "defense": 80,
+    "height": "19",
+    "hp": 90,
+    "name": "Arcanine",
+    "speed": 95,
+    "types": [ "fire" ]
+  },
+  {
+    "attack": 89,
+    "created": "2013-11-03T15:05:42.455121",
+    "defense": 77,
+    "height": "0",
+    "hp": 58,
+    "name": "Tyrunt",
+    "speed": 48,
+    "types": [ "rock", "dragon" ]
+  },
+  {
+    "attack": 58,
+    "created": "2013-11-03T15:05:42.463929",
+    "defense": 57,
+    "height": "0",
+    "hp": 67,
+    "name": "Dedenne",
+    "speed": 101,
+    "types": [ "electric", "fairy" ]
+  },
+  {
+    "attack": 121,
+    "created": "2013-11-03T15:05:42.456607",
+    "defense": 119,
+    "height": "0",
+    "hp": 82,
+    "name": "Tyrantrum",
+    "speed": 71,
+    "types": [ "rock", "dragon" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.465317",
+    "defense": 150,
+    "height": "0",
+    "hp": 50,
+    "name": "Carbink",
+    "speed": 50,
+    "types": [ "rock", "fairy" ]
+  },
+  {
+    "attack": 59,
+    "created": "2013-11-03T15:05:42.458166",
+    "defense": 50,
+    "height": "0",
+    "hp": 77,
+    "name": "Amaura",
+    "speed": 46,
+    "types": [ "rock", "ice" ]
+  },
+  {
+    "attack": 77,
+    "created": "2013-11-03T15:05:42.459594",
+    "defense": 72,
+    "height": "0",
+    "hp": 123,
+    "name": "Aurorus",
+    "speed": 58,
+    "types": [ "rock", "ice" ]
+  },
+  {
+    "attack": 92,
+    "created": "2013-11-03T15:05:42.462506",
+    "defense": 77,
+    "height": "0",
+    "hp": 78,
+    "name": "Hawlucha",
+    "speed": 118,
+    "types": [ "fighting", "flying" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.469693",
+    "defense": 70,
+    "height": "0",
+    "hp": 90,
+    "name": "Goodra",
+    "speed": 80,
+    "types": [ "dragon" ]
+  },
+  {
+    "attack": 81,
+    "created": "2013-11-03T15:05:42.471139",
+    "defense": 91,
+    "height": "0",
+    "hp": 58,
+    "name": "Klefki",
+    "speed": 76,
+    "types": [ "steel", "fairy" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.466820",
+    "defense": 35,
+    "height": "0",
+    "hp": 45,
+    "name": "Goomy",
+    "speed": 40,
+    "types": [ "dragon" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.939385",
+    "defense": 90,
+    "height": "14",
+    "hp": 110,
+    "name": "Walrein",
+    "speed": 65,
+    "types": [ "water", "ice" ]
+  },
+  {
+    "attack": 64,
+    "created": "2013-11-03T15:05:41.941126",
+    "defense": 85,
+    "height": "4",
+    "hp": 35,
+    "name": "Clamperl",
+    "speed": 32,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 104,
+    "created": "2013-11-03T15:05:41.942827",
+    "defense": 105,
+    "height": "17",
+    "hp": 55,
+    "name": "Huntail",
+    "speed": 52,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.949576",
+    "defense": 60,
+    "height": "6",
+    "hp": 45,
+    "name": "Bagon",
+    "speed": 50,
+    "types": [ "dragon" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:41.947867",
+    "defense": 55,
+    "height": "6",
+    "hp": 43,
+    "name": "Luvdisc",
+    "speed": 97,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.951107",
+    "defense": 100,
+    "height": "11",
+    "hp": 65,
+    "name": "Shelgon",
+    "speed": 50,
+    "types": [ "dragon" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.954343",
+    "defense": 80,
+    "height": "6",
+    "hp": 40,
+    "name": "Beldum",
+    "speed": 30,
+    "types": [ "steel", "psychic" ]
+  },
+  {
+    "attack": 150,
+    "created": "2013-11-03T15:05:41.970713",
+    "defense": 140,
+    "height": "35",
+    "hp": 100,
+    "name": "Groudon",
+    "speed": 90,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.956395",
+    "defense": 100,
+    "height": "12",
+    "hp": 60,
+    "name": "Metang",
+    "speed": 50,
+    "types": [ "steel", "psychic" ]
+  },
+  {
+    "attack": 75,
+    "created": "2013-11-03T15:05:41.963889",
+    "defense": 150,
+    "height": "19",
+    "hp": 80,
+    "name": "Registeel",
+    "speed": 50,
+    "types": [ "steel" ]
+  },
+  {
+    "attack": 155,
+    "created": "2013-11-03T15:05:42.551365",
+    "defense": 109,
+    "height": "0",
+    "hp": 95,
+    "name": "Gyarados-mega",
+    "speed": 81,
+    "types": [ "water", "dark" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:42.557962",
+    "defense": 105,
+    "height": "0",
+    "hp": 90,
+    "name": "Ampharos-mega",
+    "speed": 45,
+    "types": [ "electric", "dragon" ]
+  },
+  {
+    "attack": 135,
+    "created": "2013-11-03T15:05:42.552922",
+    "defense": 85,
+    "height": "0",
+    "hp": 80,
+    "name": "Aerodactyl-mega",
+    "speed": 150,
+    "types": [ "flying", "rock" ]
+  },
+  {
+    "attack": 190,
+    "created": "2013-11-03T15:05:42.554794",
+    "defense": 100,
+    "height": "0",
+    "hp": 106,
+    "name": "Mewtwo-mega-x",
+    "speed": 130,
+    "types": [ "fighting", "psychic" ]
+  },
+  {
+    "attack": 150,
+    "created": "2013-11-03T15:05:42.556347",
+    "defense": 70,
+    "height": "0",
+    "hp": 106,
+    "name": "Mewtwo-mega-y",
+    "speed": 140,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 150,
+    "created": "2013-11-03T15:05:42.559647",
+    "defense": 140,
+    "height": "0",
+    "hp": 70,
+    "name": "Scizor-mega",
+    "speed": 75,
+    "types": [ "bug", "steel" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.571921",
+    "defense": 85,
+    "height": "0",
+    "hp": 60,
+    "name": "Medicham-mega",
+    "speed": 100,
+    "types": [ "fighting", "psychic" ]
+  },
+  {
+    "attack": 185,
+    "created": "2013-11-03T15:05:42.561123",
+    "defense": 115,
+    "height": "0",
+    "hp": 80,
+    "name": "Heracross-mega",
+    "speed": 75,
+    "types": [ "fighting", "bug" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:42.562735",
+    "defense": 90,
+    "height": "0",
+    "hp": 75,
+    "name": "Houndoom-mega",
+    "speed": 115,
+    "types": [ "fire", "dark" ]
+  },
+  {
+    "attack": 164,
+    "created": "2013-11-03T15:05:42.564225",
+    "defense": 150,
+    "height": "0",
+    "hp": 100,
+    "name": "Tyranitar-mega",
+    "speed": 71,
+    "types": [ "rock", "dark" ]
+  },
+  {
+    "attack": 131,
+    "created": "2013-11-03T15:05:42.485888",
+    "defense": 95,
+    "height": "0",
+    "hp": 126,
+    "name": "Xerneas",
+    "speed": 99,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 131,
+    "created": "2013-11-03T15:05:42.487407",
+    "defense": 95,
+    "height": "0",
+    "hp": 126,
+    "name": "Yveltal",
+    "speed": 99,
+    "types": [ "flying", "dark" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.491659",
+    "defense": 160,
+    "height": "17",
+    "hp": 50,
+    "name": "Deoxys-defense",
+    "speed": 90,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 180,
+    "created": "2013-11-03T15:05:42.490201",
+    "defense": 20,
+    "height": "17",
+    "hp": 50,
+    "name": "Deoxys-attack",
+    "speed": 150,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:42.445604",
+    "defense": 60,
+    "height": "0",
+    "hp": 50,
+    "name": "Skrelp",
+    "speed": 30,
+    "types": [ "poison", "water" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:42.453628",
+    "defense": 52,
+    "height": "0",
+    "hp": 62,
+    "name": "Heliolisk",
+    "speed": 109,
+    "types": [ "normal", "electric" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:42.493098",
+    "defense": 90,
+    "height": "17",
+    "hp": 50,
+    "name": "Deoxys-speed",
+    "speed": 180,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 79,
+    "created": "2013-11-03T15:05:42.494556",
+    "defense": 105,
+    "height": "5",
+    "hp": 60,
+    "name": "Wormadam-sandy",
+    "speed": 36,
+    "types": [ "ground", "bug" ]
+  },
+  {
+    "attack": 70,
+    "created": "2013-11-03T15:05:42.509807",
+    "defense": 70,
+    "height": "3",
+    "hp": 70,
+    "name": "Castform-rainy",
+    "speed": 70,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.500724",
+    "defense": 107,
+    "height": "3",
+    "hp": 50,
+    "name": "Rotom-heat",
+    "speed": 86,
+    "types": [ "fire", "electric" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:42.518703",
+    "defense": 70,
+    "height": "30",
+    "hp": 79,
+    "name": "Thundurus-therian",
+    "speed": 101,
+    "types": [ "flying", "electric" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.517248",
+    "defense": 80,
+    "height": "14",
+    "hp": 79,
+    "name": "Tornadus-therian",
+    "speed": 121,
+    "types": [ "flying" ]
+  },
+  {
+    "attack": 145,
+    "created": "2013-11-03T15:05:42.520101",
+    "defense": 90,
+    "height": "13",
+    "hp": 89,
+    "name": "Landorus-therian",
+    "speed": 91,
+    "types": [ "flying", "ground" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:42.523026",
+    "defense": 90,
+    "height": "36",
+    "hp": 125,
+    "name": "Kyurem-white",
+    "speed": 95,
+    "types": [ "ice", "dragon" ]
+  },
+  {
+    "attack": 150,
+    "created": "2013-11-03T15:05:42.527352",
+    "defense": 50,
+    "height": "0",
+    "hp": 60,
+    "name": "Aegislash-blade",
+    "speed": 60,
+    "types": [ "ghost", "steel" ]
+  },
+  {
+    "attack": 170,
+    "created": "2013-11-03T15:05:42.521571",
+    "defense": 100,
+    "height": "33",
+    "hp": 125,
+    "name": "Kyurem-black",
+    "speed": 95,
+    "types": [ "ice", "dragon" ]
+  },
+  {
+    "attack": 72,
+    "created": "2013-11-03T15:05:42.524429",
+    "defense": 90,
+    "height": "14",
+    "hp": 91,
+    "name": "Keldeo-resolute",
+    "speed": 108,
+    "types": [ "fighting", "water" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:42.525815",
+    "defense": 76,
+    "height": "0",
+    "hp": 74,
+    "name": "Meowstic-female",
+    "speed": 104,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 66,
+    "created": "2013-11-03T15:05:42.528725",
+    "defense": 70,
+    "height": "0",
+    "hp": 44,
+    "name": "Pumpkaboo-small",
+    "speed": 56,
+    "types": [ "ghost", "grass" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.544736",
+    "defense": 65,
+    "height": "0",
+    "hp": 55,
+    "name": "Alakazam-mega",
+    "speed": 150,
+    "types": [ "psychic" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.410822",
+    "defense": 50,
+    "height": "10",
+    "hp": 65,
+    "name": "Weepinbell",
+    "speed": 55,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:41.322170",
+    "defense": 110,
+    "height": "10",
+    "hp": 75,
+    "name": "Sandslash",
+    "speed": 65,
+    "types": [ "ground" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.155840",
+    "defense": 85,
+    "height": "15",
+    "hp": 95,
+    "name": "Samurott",
+    "speed": 70,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:41.381721",
+    "defense": 60,
+    "height": "10",
+    "hp": 65,
+    "name": "Primeape",
+    "speed": 95,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 80,
+    "created": "2013-11-03T15:05:41.660582",
+    "defense": 50,
+    "height": "6",
+    "hp": 60,
+    "name": "Teddiursa",
+    "speed": 40,
+    "types": [ "normal" ]
+  },
+  {
+    "attack": 135,
+    "created": "2013-11-03T15:05:41.952655",
+    "defense": 80,
+    "height": "15",
+    "hp": 95,
+    "name": "Salamence",
+    "speed": 100,
+    "types": [ "flying", "dragon" ]
+  },
+  {
+    "attack": 120,
+    "created": "2013-11-03T15:05:42.499095",
+    "defense": 100,
+    "height": "69",
+    "hp": 150,
+    "name": "Giratina-origin",
+    "speed": 90,
+    "types": [ "ghost", "dragon" ]
+  },
+  {
+    "attack": 105,
+    "created": "2013-11-03T15:05:42.200814",
+    "defense": 85,
+    "height": "12",
+    "hp": 85,
+    "name": "Gurdurr",
+    "speed": 40,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:41.430889",
+    "defense": 65,
+    "height": "12",
+    "hp": 90,
+    "name": "Slowpoke",
+    "speed": 15,
+    "types": [ "water", "psychic" ]
+  },
+  {
+    "attack": 95,
+    "created": "2013-11-03T15:05:41.693583",
+    "defense": 95,
+    "height": "14",
+    "hp": 50,
+    "name": "Hitmontop",
+    "speed": 70,
+    "types": [ "fighting" ]
+  },
+  {
+    "attack": 81,
+    "created": "2013-11-03T15:05:42.404656",
+    "defense": 71,
+    "height": "0",
+    "hp": 78,
+    "name": "Talonflame",
+    "speed": 126,
+    "types": [ "flying", "fire" ]
+  },
+  {
+    "attack": 52,
+    "created": "2013-11-03T15:05:42.409440",
+    "defense": 50,
+    "height": "0",
+    "hp": 80,
+    "name": "Vivillon",
+    "speed": 89,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 35,
+    "created": "2013-11-03T15:05:42.406438",
+    "defense": 40,
+    "height": "0",
+    "hp": 38,
+    "name": "Scatterbug",
+    "speed": 35,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.416941",
+    "defense": 68,
+    "height": "0",
+    "hp": 78,
+    "name": "Florges",
+    "speed": 75,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 22,
+    "created": "2013-11-03T15:05:42.407920",
+    "defense": 60,
+    "height": "0",
+    "hp": 45,
+    "name": "Spewpa",
+    "speed": 29,
+    "types": [ "bug" ]
+  },
+  {
+    "attack": 50,
+    "created": "2013-11-03T15:05:42.410875",
+    "defense": 58,
+    "height": "0",
+    "hp": 62,
+    "name": "Litleo",
+    "speed": 72,
+    "types": [ "normal", "fire" ]
+  },
+  {
+    "attack": 38,
+    "created": "2013-11-03T15:05:42.413936",
+    "defense": 39,
+    "height": "0",
+    "hp": 44,
+    "name": "Flabebe",
+    "speed": 42,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 45,
+    "created": "2013-11-03T15:05:42.415410",
+    "defense": 47,
+    "height": "0",
+    "hp": 54,
+    "name": "Floette",
+    "speed": 52,
+    "types": [ "fairy" ]
+  },
+  {
+    "attack": 65,
+    "created": "2013-11-03T15:05:42.418475",
+    "defense": 48,
+    "height": "0",
+    "hp": 66,
+    "name": "Skiddo",
+    "speed": 52,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 100,
+    "created": "2013-11-03T15:05:42.420234",
+    "defense": 62,
+    "height": "0",
+    "hp": 123,
+    "name": "Gogoat",
+    "speed": 68,
+    "types": [ "grass" ]
+  },
+  {
+    "attack": 132,
+    "created": "2013-11-03T15:05:42.580477",
+    "defense": 105,
+    "height": "0",
+    "hp": 90,
+    "name": "Abomasnow-mega",
+    "speed": 30,
+    "types": [ "grass", "ice" ]
+  },
+  {
+    "attack": 49,
+    "created": "2013-11-03T15:05:41.260678",
+    "defense": 49,
+    "height": "7",
+    "hp": 45,
+    "name": "Bulbasaur",
+    "speed": 45,
+    "types": [ "poison", "grass" ]
+  },
+  {
+    "attack": 84,
+    "created": "2013-11-03T15:05:41.275724",
+    "defense": 78,
+    "height": "17",
+    "hp": 78,
+    "name": "Charizard",
+    "speed": 100,
+    "types": [ "flying", "fire" ]
+  },
+  {
+    "attack": 60,
+    "created": "2013-11-03T15:05:41.536326",
+    "defense": 125,
+    "height": "10",
+    "hp": 70,
+    "name": "Omastar",
+    "speed": 55,
+    "types": [ "rock", "water" ]
+  },
+  {
+    "attack": 92,
+    "created": "2013-11-03T15:05:41.501646",
+    "defense": 65,
+    "height": "13",
+    "hp": 80,
+    "name": "Seaking",
+    "speed": 68,
+    "types": [ "water" ]
+  },
+  {
+    "attack": 55,
+    "created": "2013-11-03T15:05:41.606681",
+    "defense": 55,
+    "height": "8",
+    "hp": 70,
+    "name": "Flaaffy",
+    "speed": 45,
+    "types": [ "electric" ]
+  },
+  {
+    "attack": 90,
+    "created": "2013-11-03T15:05:41.793809",
+    "defense": 45,
+    "height": "8",
+    "hp": 1,
+    "name": "Shedinja",
+    "speed": 40,
+    "types": [ "bug", "ghost" ]
+  },
+  {
+    "attack": 68,
+    "created": "2013-11-03T15:05:41.926872",
+    "defense": 83,
+    "height": "20",
+    "hp": 99,
+    "name": "Tropius",
+    "speed": 51,
+    "types": [ "flying", "grass" ]
+  },
+  {
+    "attack": 30,
+    "created": "2013-11-03T15:05:42.022560",
+    "defense": 42,
+    "height": "3",
+    "hp": 30,
+    "name": "Combee",
+    "speed": 70,
+    "types": [ "flying", "bug" ]
+  },
+  {
+    "attack": 48,
+    "created": "2013-11-03T15:05:42.035373",
+    "defense": 48,
+    "height": "3",
+    "hp": 76,
+    "name": "Shellos",
+    "speed": 34,
+    "types": [ "water" ]
+  }
+]

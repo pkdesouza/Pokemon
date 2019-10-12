@@ -7,16 +7,15 @@ using PokemonAPI.Models.MongoDB;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace PokemonAPI.Context
 {
-    public class MongoContext : IMongoContext
+    public class MongoContext : IMongoContext, IDisposable
     {
         private IMongoDatabase Database { get; set; }
         public MongoClient MongoClient { get; set; }
-        private readonly List<Func<Task>> _commands;
+        private List<Func<Task>> _commands;
         public IClientSessionHandle Session { get; set; }
 
         public MongoContext(IOptions<Settings> settings)
@@ -29,7 +28,6 @@ namespace PokemonAPI.Context
             MongoClient = new MongoClient(settings.Value.ConnectionString);
             Database = MongoClient.GetDatabase(settings.Value.Database);
         }
-
         private void RegisterConventions()
         {
             var pack = new ConventionPack
@@ -42,28 +40,22 @@ namespace PokemonAPI.Context
 
         public async Task<int> SaveChanges()
         {
+            var count = _commands.Count;
             using (Session = await MongoClient.StartSessionAsync())
             {
                 Session.StartTransaction();
-
                 var commandTasks = _commands.Select(c => c());
 
                 await Task.WhenAll(commandTasks);
-
                 await Session.CommitTransactionAsync();
+                _commands = new List<Func<Task>>();
             }
-
-            return _commands.Count;
+            return count;
         }
 
         public IMongoCollection<T> GetCollection<T>(string name)
         {
             return Database.GetCollection<T>(name);
-        }
-
-        public void Dispose()
-        {
-            GC.SuppressFinalize(this);
         }
 
         public void AddCommand(Func<Task> func)
@@ -73,6 +65,10 @@ namespace PokemonAPI.Context
 
         public async Task<bool> Commit() => await SaveChanges() > 0;
 
+        public void Dispose()
+        {
+            GC.SuppressFinalize(this);
+        }
     }
 
 }

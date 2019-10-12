@@ -24,7 +24,7 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAllAsync()
         {
             try
             {
@@ -41,7 +41,7 @@ namespace PokemonAPI.Controllers
 
         [HttpGet("{id}")]
 
-        public async Task<IActionResult> GetById(Guid id)
+        public async Task<IActionResult> GetByIdAsync(Guid id)
         {
             try
             {
@@ -57,14 +57,14 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(PokemonViewModel pokemonViewModel)
+        public async Task<IActionResult> CreateAsync(PokemonViewModel pokemonViewModel)
         {
             try
             {
                 pokemonViewModel.Valid();
                 var pokemon = new Pokemon(pokemonViewModel);
                 await PokemonService.SaveAsync(pokemon);
-                return CreatedAtAction("Create", pokemon);
+                return Ok(pokemon);
             }
             catch (PokemonViewModelException e)
             {
@@ -77,7 +77,7 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpPost("CreateMany")]
-        public async Task<IActionResult> CreateMany(IList<PokemonViewModel> pokemonViewModels)
+        public async Task<IActionResult> CreateManyAsync(IList<PokemonViewModel> pokemonViewModels)
         {
             try
             {
@@ -89,7 +89,7 @@ namespace PokemonAPI.Controllers
                 }
                
                 await PokemonService.SaveAsync(pokemons);
-                return CreatedAtAction("Create", pokemons);
+                return Ok(pokemons);
             }
             catch (PokemonViewModelException e)
             {
@@ -102,7 +102,7 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(Guid id, PokemonViewModel pokemonViewModel)
+        public async Task<IActionResult> UpdateAsync(Guid id, PokemonViewModel pokemonViewModel)
         {
             try
             {
@@ -122,7 +122,7 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpPut("UpdateMany")]
-        public async Task<IActionResult> UpdateMany(IList<PokemonUpdateViewModel> pokemonViewModels)
+        public async Task<IActionResult> UpdateManyAsync(IList<PokemonUpdateViewModel> pokemonViewModels)
         {
             try
             {
@@ -147,7 +147,7 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(Guid id)
+        public async Task<IActionResult> DeleteAsync(Guid id)
         {
             try
             {
@@ -161,7 +161,7 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpDelete("DeleteMany")]
-        public async Task<IActionResult> DeleteMany(IList<Guid> ids)
+        public async Task<IActionResult> DeleteManyAsync(IList<Guid> ids)
         {
             try
             {

@@ -65,22 +65,20 @@ namespace PokemonAPI.Repositories
 
         public async Task UpdateAsync(T entity)
         {
-            _context.AddCommand(async () => await DbSet.ReplaceOneAsync(Builders<T>.Filter.Eq("_id", entity.GetId()), entity));
+            _context.AddCommand(async () => await DbSet.ReplaceOneAsync(Builders<T>.Filter.Eq("_id", entity.GetId()), entity, new UpdateOptions { IsUpsert = true }));
             await _context.Commit();
         }
 
         public async Task UpdateAsync(IList<T> entities)
         {
             foreach (var entity in entities)
-            {
-                _context.AddCommand(async () => await DbSet.ReplaceOneAsync(Builders<T>.Filter.Eq("_id", entity.GetId()), entity));
-            }
+                _context.AddCommand(async () => await DbSet.ReplaceOneAsync(Builders<T>.Filter.Eq("_id", entity.GetId()), entity, new UpdateOptions { IsUpsert = true }));
+
             await _context.Commit();
         }
-
         public void Dispose()
         {
-            _context?.Dispose();
+            _context.Dispose();
         }
 
     }
