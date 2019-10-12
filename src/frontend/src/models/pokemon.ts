@@ -1,5 +1,5 @@
-export interface Pokemon {
-  id?: number;
+export class Pokemon {
+  id?: string;
   name: string;
   attack: number;
   defense: number;
