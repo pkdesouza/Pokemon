@@ -1,35 +1,55 @@
-<h2>Create Pokemon</h2>
+<div class="py-5 text-center">
+  <h2>Adicionar Pokemon</h2>
+</div>
 <form [formGroup]="pokemonForm" (ngSubmit)="create()">
-    <label>
-      Name: <input matInput placeholder="Name" type="text" class="form-control" type="text" formControlName="name" name="name"
-        id="name" />
-    </label>
-    <label>
-      Attack: <input matInput placeholder="Attack" type="text" class="form-control" type="text" formControlName="attack"
-        name="attack" id="attack" />
-    </label>
-    <label>
-      Defense: <input matInput placeholder="Defense" type="text" class="form-control" type="text" formControlName="defense"
-        name="defense" id="defense" />
-    </label>
-    <label>
-      Height: <input matInput placeholder="Height" type="text" class="form-control" type="text" formControlName="height"
-        name="height" id="height" />
-    </label>
-    <label>
-      Hp: <input matInput placeholder="Hp" type="text" class="form-control" type="text" formControlName="hp"
-        name="hp" id="hp" />
-    </label>
-    <label>
-      Speed: <input matInput placeholder="Speed" type="text" class="form-control" type="text" formControlName="speed"
-        name="speed" id="speed" />
-    </label>
-    <label>
-      types: <input matInput placeholder="Types" type="text" class="form-control" type="text" formControlName="types"
-        name="types" id="types" />
-    </label>
-  
-    <button id="pokemonCreate" color="primary" type="submit" class="btn" [disabled]="!pokemonForm.valid">
-      Create
-    </button>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label>
+        Name:
+      </label>
+      <input matInput placeholder="Name" type="text" class="form-control" type="text" formControlName="name" name="name" id="name" />
+    </div>
+    <div class="form-group col-md-3">
+      <label>
+        Attack:
+      </label>
+      <input matInput placeholder="Attack" type="text" class="form-control" type="text" formControlName="attack" name="attack" id="attack" />
+    </div>
+    <div class="form-group col-md-3">
+      <label>
+        Defense:
+      </label>
+      <input matInput placeholder="Defense" type="text" class="form-control" type="text" formControlName="defense" name="defense" id="defense" />
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-3">
+      <label>
+        Height:
+      </label>
+      <input matInput placeholder="Height" type="text" class="form-control" type="text" formControlName="height" name="height" id="height" />
+    </div>
+    <div class="form-group col-md-3">
+      <label>
+        Hp:
+      </label>
+      <input matInput placeholder="Hp" type="text" class="form-control" type="text" formControlName="hp" name="hp" id="hp" />
+    </div>
+    <div class="form-group col-md-3">
+      <label>
+        Speed:
+      </label>
+      <input matInput placeholder="Speed" type="text" class="form-control" type="text" formControlName="speed" name="speed" id="speed" />
+    </div>
+    <div class="form-group col-md-3">
+      <label>
+        types:
+      </label>
+      <input matInput placeholder="Types" type="text" class="form-control" type="text" formControlName="types" name="types" id="types" />
+    </div>
+  </div>
+
+  <button id="pokemonCreate" color="primary" type="submit" class=" btn btn-primary" [disabled]="!pokemonForm.valid">
+    Create
+  </button>
 </form>

@@ -8,9 +8,9 @@ import { Pokemon } from './pokemon';
   styleUrls: ['./pokemon.component.scss']
 })
 export class PokemonComponent implements OnInit {
-  protected url = 'https://localhost:5001/api/pokemon';
+  protected url = 'https://localhost:44333/api/pokemon';
   public pokemons: Pokemon[] = [];
-  constructor(protected httpClient: HttpClient) {}
+  constructor(protected httpClient: HttpClient) { }
 
   ngOnInit() {
     this.httpClient
