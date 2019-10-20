@@ -8,16 +8,15 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class PokemonService {
-  protected url = 'https://localhost:44333/api/pokemon';
+  protected url = 'https://localhost:5001/api/pokemon';
   constructor(private request: HttpClient) { }
-
-  // getAllPokemons() {
-  //   return this.request.get<any[]>(this.url);
-  // }
 
   getAllPokemons(): Observable<Pokemon[]> {
     return this.request.get(this.url).pipe(map((response: any) =>
       response
     ));
+  }
+  createPokemon(pokemon: Pokemon) {
+    return this.request.post(this.url, pokemon);
   }
 }

@@ -2,7 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
-import { Pokemon } from '../../../models/pokemon';
+import { Pokemon } from 'src/models/pokemon';
+import { PokemonService } from 'src/services/pokemonService';
 
 @Component({
   selector: 'app-pokemon-create',
@@ -22,18 +23,20 @@ export class PokemonCreateComponent implements OnInit {
 
   protected url = 'https://localhost:5001/api/pokemon';
 
-  constructor(protected httpClient: HttpClient, private router: Router) { }
+  constructor(protected service: PokemonService, private router: Router) { }
 
   ngOnInit() { }
 
   create() {
     const pokemonModel: Pokemon = this.pokemonForm.value;
-    pokemonModel.types = ['normal'];
-    this.httpClient
-      .post(`${this.url}`, pokemonModel)
-      .subscribe(
-        () => this.router.navigate(['/pokemon']),
-        error => alert('Error adding pokemon: ' + JSON.stringify(error))
-      );
+    if (!this.pokemonForm.get('types').value)
+      pokemonModel.types = ['normal'];
+    else
+      pokemonModel.types = this.pokemonForm.get('types').value.split(",");
+    
+    this.service.createPokemon(pokemonModel).subscribe(
+      () => this.router.navigate(['/pokemon']),
+      error => alert('Error adding pokemon: ' + JSON.stringify(error))
+    );
   }
 }
