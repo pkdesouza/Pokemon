@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PokemonCreateComponent } from './create/pokemon-create.component';
-import { PokemonComponent } from './list/pokemon.component';
+import { PokemonListComponent } from './list/pokemonListComponent';
+import { PokemonCreateEditComponent } from './createEdit/pokemonCreateEditComponent';
+import { HomeComponent } from './home/HomeComponent';
 
 const routes: Routes = [
-  { path: 'pokemon/create', component: PokemonCreateComponent },
-  { path: 'pokemon', component: PokemonComponent }
+  { path: 'pokemon', component: PokemonListComponent },
+  { path: 'pokemon/createEdit/:id', component: PokemonCreateEditComponent },
+  { path: 'home', component: HomeComponent }
 ];
 
 @NgModule({

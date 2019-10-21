@@ -4,10 +4,10 @@ import { PokemonService } from 'src/services/pokemonService';
 
 @Component({
   selector: 'app-pokemon',
-  templateUrl: './pokemon.component.html',
-  styleUrls: ['./pokemon.component.scss']
+  templateUrl: './pokemonListComponent.html',
+  styleUrls: ['./pokemonListComponent.scss']
 })
-export class PokemonComponent implements OnInit {
+export class PokemonListComponent implements OnInit {
   // public pokemons: Pokemon[] = [];
   constructor(protected service: PokemonService) { }
 

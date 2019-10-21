@@ -16,7 +16,15 @@ export class PokemonService {
       response
     ));
   }
+  getByIdPokemon(id: string) {
+    return this.request.get(`${this.url}/${id}`).pipe(map((response: any) =>
+      response
+    ));
+  }
   createPokemon(pokemon: Pokemon) {
     return this.request.post(this.url, pokemon);
+  }
+  editPokemon(pokemon: Pokemon) {
+    return this.request.put(this.url, pokemon);
   }
 }

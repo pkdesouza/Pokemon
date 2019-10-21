@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { PokemonCreateComponent } from './create/pokemon-create.component';
 import { PokemonRoutingModule } from './pokemon-routing.module';
-import { PokemonComponent } from './list/pokemon.component';
-
+import { PokemonListComponent } from './list/pokemonListComponent';
+import { PokemonCreateEditComponent } from './createEdit/pokemonCreateEditComponent';
+import { HomeComponent} from './home/HomeComponent'
 @NgModule({
   imports: [
     FormsModule,
@@ -12,7 +12,7 @@ import { PokemonComponent } from './list/pokemon.component';
     PokemonRoutingModule,
     CommonModule
   ],
-  declarations: [PokemonComponent, PokemonCreateComponent],
+  declarations: [PokemonListComponent, PokemonCreateEditComponent, HomeComponent],
   providers: []
 })
 export class PokemonModule { }

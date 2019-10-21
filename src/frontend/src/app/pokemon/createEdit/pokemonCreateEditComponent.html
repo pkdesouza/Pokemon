@@ -1,7 +1,7 @@
 <div class="py-5 text-center">
-  <h2>Adicionar Pokemon</h2>
+  <h2>Salvar Pokemon</h2>
 </div>
-<form [formGroup]="pokemonForm" (ngSubmit)="create()">
+<form [formGroup]="pokemonForm" (ngSubmit)="saveOrUpdate()">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label>
@@ -49,7 +49,7 @@
     </div>
   </div>
 
-  <button id="pokemonCreate" color="primary" type="submit" class=" btn btn-primary" [disabled]="!pokemonForm.valid">
-    Create
+  <button id="pokemonSaveOrUpdate" color="primary" type="submit" class="btn btn-primary" [disabled]="!pokemonForm.valid">
+    Salvar
   </button>
 </form>
