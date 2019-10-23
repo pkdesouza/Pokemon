@@ -5,6 +5,7 @@ import { Pokemon } from 'src/models/pokemon';
 import { PokemonService } from 'src/services/pokemonService';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-pokemon-edit',
   templateUrl: './pokemonCreateEditComponent.html',
@@ -13,7 +14,8 @@ import { Router } from '@angular/router';
 
 export class PokemonCreateEditComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute, private service: PokemonService, private router: Router) { }
+  constructor(private route: ActivatedRoute, private service: PokemonService, private router: Router) {
+  }
 
   pokemonForm = new FormGroup({
     name: new FormControl(''),
@@ -30,8 +32,7 @@ export class PokemonCreateEditComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id');
     if (id)
       this.service.getByIdPokemon(id).subscribe(result => {
-          this.pokemon = result as Pokemon;
-          this.pokemonForm.patchValue(this.pokemon);
+        this.pokemonForm.patchValue(result as Pokemon);
       });
   }
 
@@ -41,8 +42,7 @@ export class PokemonCreateEditComponent implements OnInit {
       pokemonModel.types = ['normal'];
     else
       pokemonModel.types = this.pokemonForm.get('types').value.split(',');
-
-    if (this.pokemon.id)
+    if (pokemonModel.id)
       this.service.editPokemon(pokemonModel).subscribe(
         () => this.router.navigateByUrl('/pokemon'),
         error => alert('Error editing pokemon: ' + JSON.stringify(error))

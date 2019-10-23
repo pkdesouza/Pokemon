@@ -1,21 +1,36 @@
 import { Component, OnInit } from '@angular/core';
-import { Pokemon } from 'src/models/pokemon';
 import { PokemonService } from 'src/services/pokemonService';
+import * as $ from 'jquery';
+import 'bootstrap-table/dist/bootstrap-table.min.js';
 
 @Component({
   selector: 'app-pokemon',
   templateUrl: './pokemonListComponent.html',
   styleUrls: ['./pokemonListComponent.scss']
 })
+
 export class PokemonListComponent implements OnInit {
-  // public pokemons: Pokemon[] = [];
-  constructor(protected service: PokemonService) { }
+  constructor(protected service: PokemonService) {}
 
   ngOnInit() {
-    // this.service.getAllPokemons().subscribe(result => {
-    //   console.log(result);
-    //   this.pokemons = result as Pokemon[];
-    // });
+    let table = (<any>($('#table')));
+    let button = (<any>($('#remove')));
+    let scope = this;
 
+    button.click(function () {
+      let ids = $.map(table.bootstrapTable('getSelections'), row => row.id);
+      scope.deletePokemons(ids);
+      table.bootstrapTable('remove', {
+        field: 'id',
+        values: ids
+      });
+    })
+  }
+
+  deletePokemons(ids: string[]) {
+    this.service.deletePokemon(ids).subscribe(
+      () => console.log('delete pokemons successfully'),
+      error => alert('Error deleting pokemons: ' + JSON.stringify(error))
+    );
   }
 }

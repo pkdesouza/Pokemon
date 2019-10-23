@@ -7,6 +7,7 @@ import { HomeComponent } from './home/HomeComponent';
 const routes: Routes = [
   { path: 'pokemon', component: PokemonListComponent },
   { path: 'pokemon/createEdit/:id', component: PokemonCreateEditComponent },
+  { path: 'pokemon/createEdit', component: PokemonCreateEditComponent },
   { path: 'home', component: HomeComponent }
 ];
 

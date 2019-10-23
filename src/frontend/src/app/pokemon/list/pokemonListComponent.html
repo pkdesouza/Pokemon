@@ -1,10 +1,13 @@
 <div class="py-5 text-center">
   <h2>Lista dos pokemons </h2>
 </div>
-
-<table data-toggle="table" data-search="true" data-show-export="true" data-pagination="true" data-toggle="table" data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-show-columns-toggle-all="true" data-pagination="true" data-url="https://localhost:5001/api/pokemon">
+<div id="toolbar">
+  <button id="remove" class="btn btn-secondary">Remover</button>
+</div>
+<table id="table" data-toggle="table" data-search="true" data-pagination="true" data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-page-list="[10, 25, 50, 100, all]" data-show-columns-toggle-all="true" data-pagination="true" data-url="https://localhost:44333/api/pokemon">
   <thead>
     <tr>
+      <th data-field="state" data-checkbox="true"></th>
       <th data-field="id">ID</th>
       <th data-sortable="true" data-field="name">Pokemon</th>
       <th data-sortable="true" data-field="hp">HP</th>
