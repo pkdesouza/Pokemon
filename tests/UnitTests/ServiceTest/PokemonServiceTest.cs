@@ -1,5 +1,4 @@
-﻿
-using XUnitTestPokemon.Model;
+﻿using XUnitTestPokemon.Model;
 using System.Threading.Tasks;
 using Xunit;
 using Moq;

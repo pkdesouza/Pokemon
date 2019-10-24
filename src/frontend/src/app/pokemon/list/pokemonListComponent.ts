@@ -13,8 +13,8 @@ export class PokemonListComponent implements OnInit {
   constructor(protected service: PokemonService) {}
 
   ngOnInit() {
-    let table = (<any>($('#table')));
-    let button = (<any>($('#remove')));
+    let table: any = $('#table');
+    let button: any = $('#remove');
     let scope = this;
 
     button.click(function () {
