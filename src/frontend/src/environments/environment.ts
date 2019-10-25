@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlApiPokemon: 'https://localhost:44333/'
+  urlApiPokemon: 'http://localhost:4972/'
 };
 
 /*

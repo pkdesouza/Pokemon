@@ -18,7 +18,10 @@ namespace AcceptanceTests.Pages
             Driver.Url = $"{BaseUrl}{Path}";
             Driver.Navigate();
         }
-
+        public virtual void ReloadPage()
+        {
+            Driver.Navigate().Refresh();
+        }
         public virtual void NgNavigate(params object[] pathParts)
         {
             if (pathParts == null)

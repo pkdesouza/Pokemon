@@ -16,7 +16,7 @@ export class PokemonListComponent implements OnInit {
     let table: any = $('#table');
     let button: any = $('#remove');
     let scope = this;
-
+    
     button.click(function () {
       let ids = $.map(table.bootstrapTable('getSelections'), row => row.id);
       scope.deletePokemons(ids);
@@ -33,4 +33,5 @@ export class PokemonListComponent implements OnInit {
       error => alert('Error deleting pokemons: ' + JSON.stringify(error))
     );
   }
+
 }

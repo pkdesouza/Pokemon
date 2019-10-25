@@ -1,11 +1,9 @@
 using AcceptanceTests.Pages;
-using Bogus;
 using Lambda3.AspNetCore.Mvc.Testing;
 using NUnit.Framework;
 using PokemonAPI;
 using System;
-using System.Net.Http;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace AcceptanceTests
 {
@@ -16,12 +14,15 @@ namespace AcceptanceTests
 
         private FrontendServer frontendServer;
 
+        private static int attempts = 0;
+
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
             StartApiServer();
             StartFrontend();
-            System.Threading.Thread.Sleep(10000);
+            // waiting project frontend start
+            Thread.Sleep(10000);
             DriverManager.Start();
             BaseAcceptanceTest.WebAppFactory = webAppFactory;
             Page.BaseUrl = frontendServer.BaseUrl;
@@ -30,8 +31,8 @@ namespace AcceptanceTests
 
         private void StartApiServer()
         {
-            webAppFactory = new WebApplicationFactory<Startup>(port: 44333);
-            webAppFactory.CreateClient();            
+            webAppFactory = new WebApplicationFactory<Startup>(port: 4972);
+            webAppFactory.CreateDefaultClient();            
         }
 
         private void StartFrontend()
@@ -60,13 +61,21 @@ namespace AcceptanceTests
             RunAndSwallowException(() => webAppFactory?.Dispose());
         }
 
-        private static void RunAndSwallowException(Action a)
-        {
+        private static void RunAndSwallowException(Action action)
+        {            
             try
             {
-                a();
+                action();
             }
-            catch { }
+            catch {
+                if (attempts < 2)
+                {
+                    attempts++;
+                    Thread.Sleep(500*attempts);
+                    RunAndSwallowException(action);
+                }
+                attempts = 0;
+            }
         }
     }
 }
