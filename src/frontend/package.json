@@ -23,7 +23,7 @@
     "@angular/router": "~7.2.0",
     "@types/jquery": "^3.3.31",
     "bootstrap": "^4.3.1",
-    "bootstrap-table": "^1.15.5",
+    "bootstrap-table": "^1.20.2",
     "bootswatch": "^4.3.1",
     "core-js": "^2.5.4",
     "jquery": "^3.4.1",
